@@ -12,7 +12,7 @@ def get_current_time():
     return jsonify({'time': time.time()})
 
 @app.route("/get_data", methods=["POST"])
-def get_places():
+def get_data():
     data = request.get_json()
 
     latitude = data.get("latitude")
