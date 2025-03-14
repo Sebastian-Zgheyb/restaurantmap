@@ -4,37 +4,6 @@
 
 1. Install node.js on your machine https://nodejs.org/en/download
 
-## Running Development Environment Vite
-
-1. Install packages using `npm`
-
-```sh
-npm install
-```
-
-2. Run the development server
-
-```sh
-npm run dev
-```
-
-3. Open the site on <http://localhost:5173> with your browser
-
-## Running Development Environment Flask
-
-1. Create a new terminal & re-enter the Virtual Python Environment (.venv)
-
-2. Navigate to resaurantmap\src\api
-
-```sh
-cd .\src\api
-```
-
-3. Run the flask server
-
-```sh
-flask run
-```
 
 ## Running Python Virtual Environment
 
@@ -69,3 +38,36 @@ To exit the python environment, run the `deactivate` command. If you want to re-
 3. Select the `requirements.txt` file and click `Ok`
 
 To re-enter the virtual environment, run the `Python: Select Interpreter` command.
+
+
+## Running Development Environment Vite
+
+1. Install packages using `npm`
+
+```sh
+npm install
+```
+
+2. Run the development server
+
+```sh
+npm run dev
+```
+
+3. Open the site on <http://localhost:5173> with your browser
+
+## Running Development Environment Flask
+
+1. Create a new terminal & re-enter the Virtual Python Environment (.venv)
+
+2. Navigate to resaurantmap\src\api
+
+```sh
+cd .\src\api
+```
+
+3. Run the flask server
+
+```sh
+flask run
+```
