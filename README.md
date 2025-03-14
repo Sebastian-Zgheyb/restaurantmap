@@ -1,29 +1,44 @@
 # restaurantmap
 
-## For Development
-
-### Global Install Requirements
+## Global Install Requirements
 
 1. Install node.js on your machine https://nodejs.org/en/download
-2. Install yarn from here https://yarnpkg.com/getting-started/install
+
+## Running Development Environment
+
+1. Install packages using `npm`
+
+```sh
+npm install
+```
+
+2. Run the development server
+
+```sh
+npm run dev
+```
+
+3. Open the site on <http://localhost:5173> with your browser
+
+## Running Python Virtual Environment
 
 ### WSL/Shell
 
 1. In the repositories working directory, create the python virtual environment
 
-```shell
+```sh
 python3 -m venv .venv
 ```
 
 2. Enter the python virtual environment
 
-```shell
+```sh
 source .venv/bin/activate
 ```
 
 3. Install the python dependencies
 
-```shell
+```sh
 pip install -r requirements.txt
 ```
 
