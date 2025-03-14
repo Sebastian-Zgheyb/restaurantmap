@@ -21,29 +21,89 @@ def get_data():
     
     print(f"Received Latitude: {latitude}, Longitude: {longitude}, Radius: {radius}")
 
+    # Define the response data in a cleaner format
     response_data = {
-        "totalUniquePlaces": 3,
-        "places": [
+        'totalUniquePlaces': 3,
+        'places': [
             {
-                "id": "place_id_1",
-                "name": "Restaurant 1",
-                "types": ["restaurant", "food"],
-                "rating": 4.5,
-                "priceLevel": 2,
-                "priceRange": "$$"
+                'id': 'ChIJgetcRmGAhYARjDkShaWuWMs',
+                'name': None,
+                'types': [
+                    'mediterranean_restaurant',
+                    'middle_eastern_restaurant',
+                    'restaurant',
+                    'food',
+                    'point_of_interest',
+                    'establishment'
+                ],
+                'rating': 4.5,
+                'priceLevel': 'PRICE_LEVEL_MODERATE',
+                'priceRange': {
+                    'startPrice': {
+                        'currencyCode': 'USD',
+                        'units': '10'
+                    },
+                    'endPrice': {
+                        'currencyCode': 'USD',
+                        'units': '20'
+                    }
+                }
             },
             {
-                "id": "place_id_2",
-                "name": "Restaurant 2",
-                "types": ["restaurant", "cafe"],
-                "rating": 4.2,
-                "priceLevel": 1,
-                "priceRange": "$"
+                'id': 'ChIJ-U9G5Z6AhYARhPZImqlxUSk',
+                'name': None,
+                'types': [
+                    'korean_restaurant',
+                    'fine_dining_restaurant',
+                    'japanese_restaurant',
+                    'restaurant',
+                    'point_of_interest',
+                    'food',
+                    'establishment'
+                ],
+                'rating': 3.8,
+                'priceLevel': None,
+                'priceRange': {
+                    'startPrice': {
+                        'currencyCode': 'USD',
+                        'units': '100'
+                    }
+                }
+            },
+            {
+                'id': 'ChIJIQRT5bOAj4ARtg_luwU-pP4',
+                'name': None,
+                'types': [
+                    'coffee_shop',
+                    'cafe',
+                    'art_gallery',
+                    'bar',
+                    'food_store',
+                    'store',
+                    'restaurant',
+                    'food',
+                    'point_of_interest',
+                    'establishment'
+                ],
+                'rating': 4.4,
+                'priceLevel': 'PRICE_LEVEL_MODERATE',
+                'priceRange': {
+                    'startPrice': {
+                        'currencyCode': 'USD',
+                        'units': '1'
+                    },
+                    'endPrice': {
+                        'currencyCode': 'USD',
+                        'units': '10'
+                    }
+                }
             }
         ]
     }
 
+    # Return the JSON response with the formatted data
     return jsonify(response_data)
+
 
 
 if __name__ == '__main__':
