@@ -15,7 +15,7 @@ class GooglePlacesAPI:
             "includedTypes": [
                 "restaurant", "bar", "cafe", "bakery", "pub", "fast_food_restaurant", 
                 "ice_cream_shop", "coffee_shop", "dessert_shop", "sandwich_shop", 
-                "food_court", "juice_shop", "meal_takeaway", "meal_delivery", "wine_bar"
+                "food_court", "juice_shop", "meal_takeaway", "meal_delivery", "wine_bar", "food"
             ],
             "maxResultCount": self.maxResultCount,
             "locationRestriction": {
