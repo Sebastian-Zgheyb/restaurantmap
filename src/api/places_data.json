@@ -1,0 +1,2166 @@
+{
+  "totalUniquePlaces": 83,
+  "places": [
+    {
+      "id": "ChIJgetcRmGAhYARjDkShaWuWMs",
+      "name": "Oasis Grill",
+      "types": [
+        "mediterranean_restaurant",
+        "middle_eastern_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.5,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.7944351,
+      "longitude": -122.3967897
+    },
+    {
+      "id": "ChIJnUe-PACBhYARr5OdOFgxzd0",
+      "name": "Hotel Omni",
+      "types": [
+        "indian_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": null,
+      "priceLevel": null,
+      "priceRange": null,
+      "latitude": 37.7749295,
+      "longitude": -122.41941550000001
+    },
+    {
+      "id": "ChIJ979gxT2Bj4ARJ9s6s4mDoFw",
+      "name": "Chipotle Mexican Grill",
+      "types": [
+        "mexican_restaurant",
+        "catering_service",
+        "food_delivery",
+        "fast_food_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 3.2,
+      "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.803719699999995,
+      "longitude": -122.27124750000002
+    },
+    {
+      "id": "ChIJY3rEu5CAhYAR3CjUhJ3qY3A",
+      "name": "Saigon Sandwich",
+      "types": [
+        "sandwich_shop",
+        "vietnamese_restaurant",
+        "meal_takeaway",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.6,
+      "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "1"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        }
+      },
+      "latitude": 37.7831271,
+      "longitude": -122.4173619
+    },
+    {
+      "id": "ChIJS87mHCiBhYARiPE2_wqmEr4",
+      "name": "Roka Akor - San Francisco",
+      "types": [
+        "steak_house",
+        "sushi_restaurant",
+        "seafood_restaurant",
+        "japanese_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.6,
+      "priceLevel": "PRICE_LEVEL_VERY_EXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "100"
+        }
+      },
+      "latitude": 37.7964701,
+      "longitude": -122.4037235
+    },
+    {
+      "id": "ChIJqVjXkGGAhYAR5X80yCKz9Wo",
+      "name": "Tadich Grill",
+      "types": [
+        "seafood_restaurant",
+        "bar_and_grill",
+        "historical_landmark",
+        "historical_place",
+        "bar",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.5,
+      "priceLevel": "PRICE_LEVEL_EXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "50"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "100"
+        }
+      },
+      "latitude": 37.7934352,
+      "longitude": -122.3994491
+    },
+    {
+      "id": "ChIJD9JZHLKBhYARiiHQH3m_8UM",
+      "name": "Pokebola",
+      "types": [
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.2,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.7760628,
+      "longitude": -122.41985009999998
+    },
+    {
+      "id": "ChIJawCN2HyAhYARNagMvTWlbKw",
+      "name": "sweetgreen",
+      "types": [
+        "vegan_restaurant",
+        "vegetarian_restaurant",
+        "meal_takeaway",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.3,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.787279999999996,
+      "longitude": -122.398546
+    },
+    {
+      "id": "ChIJEdyidwaBhYARuB8t_8IycuM",
+      "name": "Bini's Kitchen LLC",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.8,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.779497,
+      "longitude": -122.40716919999998
+    },
+    {
+      "id": "ChIJqyQFH4qAhYAREUEQLjGeVLg",
+      "name": "JOE & THE JUICE",
+      "types": [
+        "juice_shop",
+        "sandwich_shop",
+        "coffee_shop",
+        "fast_food_restaurant",
+        "cafe",
+        "vegan_restaurant",
+        "vegetarian_restaurant",
+        "meal_takeaway",
+        "restaurant",
+        "point_of_interest",
+        "food_store",
+        "store",
+        "food",
+        "establishment"
+      ],
+      "rating": 4,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.7918045,
+      "longitude": -122.40281119999999
+    },
+    {
+      "id": "ChIJObKi4jmBhYARre5e1dPKZhM",
+      "name": "Stone Korean Kitchen",
+      "types": [
+        "korean_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.3,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.7955068,
+      "longitude": -122.3959625
+    },
+    {
+      "id": "ChIJm_AHaZKAhYARwFzqP49IC4o",
+      "name": "Gusto Pinsa Romana",
+      "types": [
+        "pizza_restaurant",
+        "italian_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.7,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "30"
+        }
+      },
+      "latitude": 37.78965360000001,
+      "longitude": -122.4139068
+    },
+    {
+      "id": "ChIJ557UHJ6AhYAR_zj0jhd9fQI",
+      "name": "Taqueria Cazadores",
+      "types": [
+        "mexican_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.5,
+      "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.7727849,
+      "longitude": -122.418896
+    },
+    {
+      "id": "ChIJ6Z5t1n6AhYARaY_WxdP44r0",
+      "name": "Garaje",
+      "types": [
+        "mexican_restaurant",
+        "hamburger_restaurant",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.6,
+      "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.7817989,
+      "longitude": -122.39604250000001
+    },
+    {
+      "id": "ChIJa-JlzmOAhYARg7IxyFUyiOE",
+      "name": "Subway",
+      "types": [
+        "sandwich_shop",
+        "fast_food_restaurant",
+        "catering_service",
+        "food_delivery",
+        "meal_takeaway",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 3.5,
+      "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.792193399999995,
+      "longitude": -122.39818079999998
+    },
+    {
+      "id": "ChIJVzIEjDWBhYARQ_9eoyhnMxM",
+      "name": "Truly Food Truck",
+      "types": [
+        "american_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.5,
+      "priceLevel": null,
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.7879493,
+      "longitude": -122.39619739999999
+    },
+    {
+      "id": "ChIJF-erOKKBhYARuDf3MCEVBJw",
+      "name": "Thriller Social Club",
+      "types": [
+        "bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.5,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "30"
+        }
+      },
+      "latitude": 37.779212199999996,
+      "longitude": -122.39810030000001
+    },
+    {
+      "id": "ChIJH0sfhX6AhYARtrXV6cYH2F0",
+      "name": "Chaat Corner",
+      "types": [
+        "indian_restaurant",
+        "catering_service",
+        "meal_delivery",
+        "food_delivery",
+        "asian_grocery_store",
+        "meal_takeaway",
+        "asian_restaurant",
+        "grocery_store",
+        "food_store",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "store",
+        "establishment"
+      ],
+      "rating": 3.9,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.7834893,
+      "longitude": -122.39884099999999
+    },
+    {
+      "id": "ChIJCeFn9laBhYAROdjC_OcIkqc",
+      "name": "Taishan Cuisine",
+      "types": [
+        "asian_restaurant",
+        "chinese_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "30"
+        }
+      },
+      "latitude": 37.7972963,
+      "longitude": -122.40987639999997
+    },
+    {
+      "id": "ChIJESO2d32AhYAR5iOhiwOgzuY",
+      "name": "TRACE",
+      "types": [
+        "bar",
+        "american_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.2,
+      "priceLevel": null,
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "30"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "50"
+        }
+      },
+      "latitude": 37.7853256,
+      "longitude": -122.40066329999999
+    },
+    {
+      "id": "ChIJtbmElXyAhYARbDYABzKFeB0",
+      "name": "The Melt",
+      "types": [
+        "american_restaurant",
+        "sandwich_shop",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.4,
+      "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.783308,
+      "longitude": -122.40845200000001
+    },
+    {
+      "id": "ChIJ3QQWLP2BhYAR4TyaoVFJEOU",
+      "name": "Kombu",
+      "types": [
+        "japanese_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 5,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "50"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "100"
+        }
+      },
+      "latitude": 37.7815308,
+      "longitude": -122.3990101
+    },
+    {
+      "id": "ChIJA8_SN2eAhYARCIvEx44Zvfw",
+      "name": "Coqueta",
+      "types": [
+        "spanish_restaurant",
+        "bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.4,
+      "priceLevel": "PRICE_LEVEL_EXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "50"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "100"
+        }
+      },
+      "latitude": 37.7985824,
+      "longitude": -122.3966387
+    },
+    {
+      "id": "ChIJabzPjmqBhYARfA7XlYs7C1Y",
+      "name": "Himalayan Pizza & Momo",
+      "types": [
+        "pizza_restaurant",
+        "indian_restaurant",
+        "restaurant",
+        "food_store",
+        "point_of_interest",
+        "food",
+        "store",
+        "establishment"
+      ],
+      "rating": 4.6,
+      "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.781791299999995,
+      "longitude": -122.4152007
+    },
+    {
+      "id": "ChIJPcIKxNmBhYARWafGo6rg89M",
+      "name": "Yokai",
+      "types": [
+        "bar_and_grill",
+        "bar",
+        "japanese_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.2,
+      "priceLevel": null,
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "100"
+        }
+      },
+      "latitude": 37.7887962,
+      "longitude": -122.39845550000001
+    },
+    {
+      "id": "ChIJr_OH-WiBhYARfUXHwDqwdSo",
+      "name": "Rural Ramen Bar",
+      "types": [
+        "ramen_restaurant",
+        "japanese_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.5,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.794505099999995,
+      "longitude": -122.4098212
+    },
+    {
+      "id": "ChIJk7ekDYaAhYARPfcE-D67SF0",
+      "name": "Shake Shack San Francisco Centre",
+      "types": [
+        "hamburger_restaurant",
+        "catering_service",
+        "dessert_restaurant",
+        "sandwich_shop",
+        "food_delivery",
+        "fast_food_restaurant",
+        "meal_takeaway",
+        "american_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 3.9,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.784402,
+      "longitude": -122.40650199999997
+    },
+    {
+      "id": "ChIJL726-YSAhYARYJeA6x0pp6A",
+      "name": "Montesacro Pinseria - SoMa",
+      "types": [
+        "pizza_restaurant",
+        "meal_delivery",
+        "wine_bar",
+        "food_delivery",
+        "italian_restaurant",
+        "meal_takeaway",
+        "bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.6,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "30"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "50"
+        }
+      },
+      "latitude": 37.7815955,
+      "longitude": -122.41012839999998
+    },
+    {
+      "id": "ChIJlRTYVWOAhYARXZsbiptnsmg",
+      "name": "Chipotle Mexican Grill",
+      "types": [
+        "mexican_restaurant",
+        "catering_service",
+        "food_delivery",
+        "fast_food_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 3.7,
+      "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.7891003,
+      "longitude": -122.39584329999998
+    },
+    {
+      "id": "ChIJCUtrIJ2AhYARxlkbZeP-Go4",
+      "name": "Moya",
+      "types": [
+        "african_restaurant",
+        "vegan_restaurant",
+        "vegetarian_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.6,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.7759664,
+      "longitude": -122.41417629999998
+    },
+    {
+      "id": "ChIJn_ZxYo-AhYAR22wJt4at2K0",
+      "name": "Kin Khao",
+      "types": [
+        "thai_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.3,
+      "priceLevel": "PRICE_LEVEL_EXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "50"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "100"
+        }
+      },
+      "latitude": 37.7852408,
+      "longitude": -122.409331
+    },
+    {
+      "id": "ChIJo_7IDsaBhYARVCrf1OFd6VU",
+      "name": "Holbrook House",
+      "types": [
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.5,
+      "priceLevel": null,
+      "priceRange": null,
+      "latitude": 37.7904544,
+      "longitude": -122.4008015
+    },
+    {
+      "id": "ChIJiZyN7IeAhYARnCn-G6GH73Q",
+      "name": "The Grove - Yerba Buena",
+      "types": [
+        "american_restaurant",
+        "breakfast_restaurant",
+        "meal_takeaway",
+        "restaurant",
+        "coffee_shop",
+        "food_store",
+        "cafe",
+        "point_of_interest",
+        "food",
+        "store",
+        "establishment"
+      ],
+      "rating": 4.4,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "30"
+        }
+      },
+      "latitude": 37.786542399999995,
+      "longitude": -122.40198620000001
+    },
+    {
+      "id": "ChIJh9kNVMGBhYARsTbPE4DqW34",
+      "name": "Burma Love",
+      "types": [
+        "asian_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.4,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "30"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "50"
+        }
+      },
+      "latitude": 37.7828996,
+      "longitude": -122.40785829999999
+    },
+    {
+      "id": "ChIJeecxh4KAhYARe6Pbn1ckuWw",
+      "name": "El Capitan Taqueria",
+      "types": [
+        "mexican_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 3.9,
+      "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.7751713,
+      "longitude": -122.410084
+    },
+    {
+      "id": "ChIJM_8RLJCAhYARWccycSLlNWc",
+      "name": "Pakwan Restaurant - Tenderloin",
+      "types": [
+        "asian_restaurant",
+        "indian_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.1,
+      "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.7856009,
+      "longitude": -122.4131458
+    },
+    {
+      "id": "ChIJU00uDM6BhYAR_ZOluZ0m4qA",
+      "name": "Bar Sprezzatura",
+      "types": [
+        "restaurant",
+        "bar",
+        "seafood_restaurant",
+        "italian_restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.5,
+      "priceLevel": null,
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "50"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "100"
+        }
+      },
+      "latitude": 37.7956599,
+      "longitude": -122.3992066
+    },
+    {
+      "id": "ChIJyRDJYIuAhYARyAPkIc7A2Vo",
+      "name": "Mister Jiu's",
+      "types": [
+        "chinese_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.3,
+      "priceLevel": "PRICE_LEVEL_EXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "100"
+        }
+      },
+      "latitude": 37.79371,
+      "longitude": -122.40665690000002
+    },
+    {
+      "id": "ChIJc92wj4WAhYAR7I5Vdu50VbQ",
+      "name": "Little Delhi",
+      "types": [
+        "indian_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.1,
+      "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "30"
+        }
+      },
+      "latitude": 37.7842759,
+      "longitude": -122.409154
+    },
+    {
+      "id": "ChIJCSgQKJuAhYARwTm9xvMuxz4",
+      "name": "Taqueria Castillo",
+      "types": [
+        "mexican_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.2,
+      "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.781095,
+      "longitude": -122.41343039999998
+    },
+    {
+      "id": "ChIJVz7re7eBhYAR617i_Ga1FPs",
+      "name": "Chotto Matte San Francisco",
+      "types": [
+        "asian_restaurant",
+        "japanese_restaurant",
+        "bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.1,
+      "priceLevel": null,
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "100"
+        }
+      },
+      "latitude": 37.7869198,
+      "longitude": -122.40577839999999
+    },
+    {
+      "id": "ChIJvaOxW2GAhYARoQ1qUuSDm98",
+      "name": "Cafe Terminus",
+      "types": [
+        "bar",
+        "american_restaurant",
+        "brunch_restaurant",
+        "breakfast_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.2,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "30"
+        }
+      },
+      "latitude": 37.7938006,
+      "longitude": -122.39678669999999
+    },
+    {
+      "id": "ChIJQ7-WcoiAhYARhy9j17oeBCA",
+      "name": "The Lark",
+      "types": [
+        "bar_and_grill",
+        "bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.3,
+      "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.787726899999996,
+      "longitude": -122.4026141
+    },
+    {
+      "id": "ChIJG-PkK4-AhYARxW6vm0X9kCQ",
+      "name": "The Cheesecake Factory",
+      "types": [
+        "restaurant",
+        "dessert_restaurant",
+        "meal_takeaway",
+        "american_restaurant",
+        "dessert_shop",
+        "confectionery",
+        "point_of_interest",
+        "bakery",
+        "food_store",
+        "store",
+        "food",
+        "establishment"
+      ],
+      "rating": 3.8,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": null,
+      "latitude": 37.7872434,
+      "longitude": -122.4074588
+    },
+    {
+      "id": "ChIJa4YhPX-AhYARrErOCjyrOBw",
+      "name": "Black Hammer Brewing Company",
+      "types": [
+        "pub",
+        "bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.6,
+      "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+      "priceRange": null,
+      "latitude": 37.7806806,
+      "longitude": -122.3969583
+    },
+    {
+      "id": "ChIJcZaNPWKAhYARVRadOutg2yw",
+      "name": "Noah's NY Bagels",
+      "types": [
+        "bagel_shop",
+        "coffee_shop",
+        "cafe",
+        "breakfast_restaurant",
+        "bakery",
+        "food_store",
+        "store",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 3.9,
+      "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.7914629,
+      "longitude": -122.3998367
+    },
+    {
+      "id": "ChIJbTQ_ZSd_j4ARF0vfc0LngL8",
+      "name": "Beyond Cafe",
+      "types": [
+        "chinese_restaurant",
+        "asian_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.5,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.7723436,
+      "longitude": -122.40743830000001
+    },
+    {
+      "id": "ChIJiwQKM5yBhYARKA-_pi9S_KQ",
+      "name": "hed verythai",
+      "types": [
+        "thai_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.5,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "30"
+        }
+      },
+      "latitude": 37.790406,
+      "longitude": -122.4034643
+    },
+    {
+      "id": "ChIJ_VCmYYyBhYARrjs3ZsGMOC0",
+      "name": "Falafel City",
+      "types": [
+        "mediterranean_restaurant",
+        "pizza_restaurant",
+        "fast_food_restaurant",
+        "hamburger_restaurant",
+        "american_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.8,
+      "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.7846914,
+      "longitude": -122.4132454
+    },
+    {
+      "id": "ChIJDzBboWOAhYARKT5j0sGvFDU",
+      "name": "Barcha Restaurant",
+      "types": [
+        "mediterranean_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.4,
+      "priceLevel": "PRICE_LEVEL_EXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "50"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "100"
+        }
+      },
+      "latitude": 37.7911372,
+      "longitude": -122.3978475
+    },
+    {
+      "id": "ChIJpeKUfwB_j4ARVSqDRAzve7U",
+      "name": "YOSSIE'S CANTINA",
+      "types": [
+        "mexican_restaurant",
+        "bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.8,
+      "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.775552700000006,
+      "longitude": -122.40656089999999
+    },
+    {
+      "id": "ChIJZ76fAGGAhYARjl9r8Nnoo6w",
+      "name": "Patriot House Pub",
+      "types": [
+        "pub",
+        "hamburger_restaurant",
+        "bar",
+        "american_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.2,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "30"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "50"
+        }
+      },
+      "latitude": 37.795,
+      "longitude": -122.39888889999997
+    },
+    {
+      "id": "ChIJE5T3YoqAhYARtxUohSbFVDc",
+      "name": "Wayfare Tavern",
+      "types": [
+        "american_restaurant",
+        "bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.5,
+      "priceLevel": "PRICE_LEVEL_EXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "50"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "100"
+        }
+      },
+      "latitude": 37.7939998,
+      "longitude": -122.40233749999999
+    },
+    {
+      "id": "ChIJZ7sxzc2BhYARThtWFAogDXs",
+      "name": "Cantoo Latin Asian Rotisserie",
+      "types": [
+        "asian_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.8,
+      "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.7858283,
+      "longitude": -122.4141616
+    },
+    {
+      "id": "ChIJVQHYG4uAhYARy5TU756NqIk",
+      "name": "R & G Lounge",
+      "types": [
+        "chinese_restaurant",
+        "catering_service",
+        "asian_restaurant",
+        "food_delivery",
+        "seafood_restaurant",
+        "bar",
+        "meal_takeaway",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.3,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "30"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "50"
+        }
+      },
+      "latitude": 37.794115,
+      "longitude": -122.40494199999999
+    },
+    {
+      "id": "ChIJs0BroYWAhYARrJvmT5AiXcA",
+      "name": "Rise Over Run",
+      "types": [
+        "bar",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.1,
+      "priceLevel": null,
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "30"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "50"
+        }
+      },
+      "latitude": 37.783080999999996,
+      "longitude": -122.409969
+    },
+    {
+      "id": "ChIJszQJEBGBhYARJ2C9RANEKyY",
+      "name": "ZENSHI Handcrafted Sushi",
+      "types": [
+        "restaurant",
+        "meal_takeaway",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": null,
+      "priceLevel": null,
+      "priceRange": null,
+      "latitude": 37.796915999999996,
+      "longitude": -122.39863129999999
+    },
+    {
+      "id": "ChIJOz17Ibp_j4ARolRA3CEhntA",
+      "name": "Hard Knox Cafe SoMa",
+      "types": [
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.4,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "30"
+        }
+      },
+      "latitude": 37.7765239,
+      "longitude": -122.40219099999999
+    },
+    {
+      "id": "ChIJD6isM2OBhYARnMYMDcW7H4I",
+      "name": "Mendocino Farms",
+      "types": [
+        "sandwich_shop",
+        "catering_service",
+        "food_delivery",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.3,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.7927841,
+      "longitude": -122.4023581
+    },
+    {
+      "id": "ChIJhbu01ZiBhYAR1JMI2FNuJXo",
+      "name": "Shelby\u2019s Rooftop",
+      "types": [
+        "bar",
+        "night_club",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.2,
+      "priceLevel": null,
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "50"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "100"
+        }
+      },
+      "latitude": 37.7823863,
+      "longitude": -122.402097
+    },
+    {
+      "id": "ChIJT2UiFyh-j4ARiebfCH9z3nU",
+      "name": "Az\u00facar Lounge",
+      "types": [
+        "bar",
+        "mexican_restaurant",
+        "event_venue",
+        "night_club",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.3,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "30"
+        }
+      },
+      "latitude": 37.7739693,
+      "longitude": -122.4116315
+    },
+    {
+      "id": "ChIJc4jk1ZWBhYARkZIS5HmVER8",
+      "name": "Dragon Horse",
+      "types": [
+        "japanese_restaurant",
+        "bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.7,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "30"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "50"
+        }
+      },
+      "latitude": 37.7797596,
+      "longitude": -122.4035876
+    },
+    {
+      "id": "ChIJxcwexvGBhYARJd6pbktHXCk",
+      "name": "The Vault Garden",
+      "types": [
+        "restaurant",
+        "seafood_restaurant",
+        "wine_bar",
+        "american_restaurant",
+        "bar",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.4,
+      "priceLevel": null,
+      "priceRange": null,
+      "latitude": 37.7923362,
+      "longitude": -122.40375119999999
+    },
+    {
+      "id": "ChIJ4-zky4qAhYARCdvL6v31n6Y",
+      "name": "Barbarossa Lounge",
+      "types": [
+        "night_club",
+        "bar",
+        "farm",
+        "event_venue",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.1,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "30"
+        }
+      },
+      "latitude": 37.7958947,
+      "longitude": -122.4031897
+    },
+    {
+      "id": "ChIJRagBt46AhYARJim-yIO5cyo",
+      "name": "McDonald's",
+      "types": [
+        "fast_food_restaurant",
+        "hamburger_restaurant",
+        "coffee_shop",
+        "cafe",
+        "breakfast_restaurant",
+        "sandwich_shop",
+        "american_restaurant",
+        "food_store",
+        "store",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 3.8,
+      "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.789217,
+      "longitude": -122.407641
+    },
+    {
+      "id": "ChIJ9TQVzIaAhYAR6d_TYsKIxq8",
+      "name": "The Chieftain Irish Pub & Restaurant",
+      "types": [
+        "bar_and_grill",
+        "pub",
+        "bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.4,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "30"
+        }
+      },
+      "latitude": 37.7814644,
+      "longitude": -122.40528680000001
+    },
+    {
+      "id": "ChIJu6kOQV6AhYARD3bFxmyGqqY",
+      "name": "The Waterfront Restaurant",
+      "types": [
+        "seafood_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.2,
+      "priceLevel": "PRICE_LEVEL_EXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "50"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "100"
+        }
+      },
+      "latitude": 37.799381100000005,
+      "longitude": -122.39729229999999
+    },
+    {
+      "id": "ChIJNRzq3FaBhYARHmZklcG2uhk",
+      "name": "Kiss My Seoul",
+      "types": [
+        "korean_restaurant",
+        "catering_service",
+        "breakfast_restaurant",
+        "food_delivery",
+        "american_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.8,
+      "priceLevel": null,
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.775067799999995,
+      "longitude": -122.4031672
+    },
+    {
+      "id": "ChIJ8QxpEOiBhYARq5x_exK3Qxk",
+      "name": "Square Pie Guys",
+      "types": [
+        "pizza_restaurant",
+        "meal_delivery",
+        "food_delivery",
+        "fast_food_restaurant",
+        "dessert_shop",
+        "bakery",
+        "confectionery",
+        "food_store",
+        "store",
+        "meal_takeaway",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.5,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "30"
+        }
+      },
+      "latitude": 37.779478999999995,
+      "longitude": -122.4103136
+    },
+    {
+      "id": "ChIJK7t6_46AhYARGY_suv0QrkQ",
+      "name": "Pinecrest Diner",
+      "types": [
+        "diner",
+        "breakfast_restaurant",
+        "american_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.3,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "30"
+        }
+      },
+      "latitude": 37.7870443,
+      "longitude": -122.4100294
+    },
+    {
+      "id": "ChIJD2Q0whyBhYARv2vWyDJKEUs",
+      "name": "Osmanthus Dim Sum Lounge",
+      "types": [
+        "wine_bar",
+        "chinese_restaurant",
+        "bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.4,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "30"
+        }
+      },
+      "latitude": 37.7981209,
+      "longitude": -122.4057057
+    },
+    {
+      "id": "ChIJrSASgn6AhYAR48OZb8J4nH8",
+      "name": "Pazzia Ristorante Italiano",
+      "types": [
+        "italian_restaurant",
+        "pizza_restaurant",
+        "bar",
+        "night_club",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.6,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "30"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "50"
+        }
+      },
+      "latitude": 37.783417899999996,
+      "longitude": -122.3980356
+    },
+    {
+      "id": "ChIJf2YNhYaAhYAR_J-wDOgjaD0",
+      "name": "Soma Restaurant & Bar",
+      "types": [
+        "italian_restaurant",
+        "american_restaurant",
+        "bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.2,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "30"
+        }
+      },
+      "latitude": 37.783000699999995,
+      "longitude": -122.406655
+    },
+    {
+      "id": "ChIJLXQNRWKAhYAR173vNYuCe0s",
+      "name": "Chipotle Mexican Grill",
+      "types": [
+        "mexican_restaurant",
+        "catering_service",
+        "food_delivery",
+        "fast_food_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 3.8,
+      "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.7942596,
+      "longitude": -122.3974244
+    },
+    {
+      "id": "ChIJyaR8If-BhYARLm232IkImUw",
+      "name": "7 Mission Restaurant",
+      "types": [
+        "chinese_restaurant",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.4,
+      "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.7784301,
+      "longitude": -122.4102587
+    },
+    {
+      "id": "ChIJk0b6hYmAhYARWaxB5KIql44",
+      "name": "Sam's Grill & Seafood Restaurant",
+      "types": [
+        "seafood_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.4,
+      "priceLevel": "PRICE_LEVEL_EXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "50"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "100"
+        }
+      },
+      "latitude": 37.7909449,
+      "longitude": -122.4036534
+    },
+    {
+      "id": "ChIJDxw0OH2AhYARiybWCPnmp20",
+      "name": "Chipotle Mexican Grill",
+      "types": [
+        "mexican_restaurant",
+        "catering_service",
+        "fast_food_restaurant",
+        "food_delivery",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 3.8,
+      "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "10"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "20"
+        }
+      },
+      "latitude": 37.7896709,
+      "longitude": -122.40399969999999
+    },
+    {
+      "id": "ChIJe9MuVY-AhYARb8Su4vUOneY",
+      "name": "John's Grill",
+      "types": [
+        "restaurant",
+        "steak_house",
+        "bar_and_grill",
+        "bar",
+        "event_venue",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.4,
+      "priceLevel": "PRICE_LEVEL_EXPENSIVE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "50"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "100"
+        }
+      },
+      "latitude": 37.785440699999995,
+      "longitude": -122.4071974
+    },
+    {
+      "id": "ChIJtTiYCPWAhYARSG5vCAkeT0Y",
+      "name": "COI",
+      "types": [
+        "fine_dining_restaurant",
+        "american_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.4,
+      "priceLevel": "PRICE_LEVEL_VERY_EXPENSIVE",
+      "priceRange": null,
+      "latitude": 37.798052399999996,
+      "longitude": -122.4034106
+    },
+    {
+      "id": "ChIJe0MyoGGAhYARJsBsUHgM8mg",
+      "name": "Schroeder's",
+      "types": [
+        "event_venue",
+        "bar",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.2,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "30"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "50"
+        }
+      },
+      "latitude": 37.7939667,
+      "longitude": -122.3986833
+    },
+    {
+      "id": "ChIJpS6YbYKAhYARVcQdOt3--U0",
+      "name": "HK Lounge Bistro",
+      "types": [
+        "chinese_restaurant",
+        "restaurant",
+        "point_of_interest",
+        "food",
+        "establishment"
+      ],
+      "rating": 4.6,
+      "priceLevel": null,
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "30"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "50"
+        }
+      },
+      "latitude": 37.7761613,
+      "longitude": -122.4088266
+    },
+    {
+      "id": "ChIJa9b_ZomAhYAR0T45skiVOcw",
+      "name": "Caf\u00e9 de la Presse",
+      "types": [
+        "french_restaurant",
+        "wine_bar",
+        "brunch_restaurant",
+        "dessert_restaurant",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.1,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": null,
+      "latitude": 37.7904669,
+      "longitude": -122.40539709999999
+    },
+    {
+      "id": "ChIJx1IXkvOAhYARMNdQA5IcmEc",
+      "name": "China Live",
+      "types": [
+        "chinese_restaurant",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ],
+      "rating": 4.2,
+      "priceLevel": "PRICE_LEVEL_MODERATE",
+      "priceRange": {
+        "startPrice": {
+          "currencyCode": "USD",
+          "units": "50"
+        },
+        "endPrice": {
+          "currencyCode": "USD",
+          "units": "100"
+        }
+      },
+      "latitude": 37.7978556,
+      "longitude": -122.4078833
+    }
+  ]
+}

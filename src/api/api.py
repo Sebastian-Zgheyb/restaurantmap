@@ -5,6 +5,12 @@ from flask_cors import CORS
 from nltk.sentiment import SentimentIntensityAnalyzer
 import nltk
 
+from utils.google_places import GooglePlacesAPI
+from utils.geometry import Geometry
+
+import asyncio
+import aiohttp
+
 nltk.download("vader_lexicon")
 sia = SentimentIntensityAnalyzer()
 
@@ -16,6 +22,14 @@ load_dotenv()
 API_KEY = os.getenv("GOOGLE_API_KEY")
 # end seb comment
 
+#ryan
+def load_api_key(file_path="../../api_keys.txt"): #should be a local file called api_keys.txt
+    with open(file_path, "r") as file:
+        return file.read().strip()
+
+API_KEY = load_api_key()
+#yeet
+
 # // Include lattitude and longitude within server's JSON file back to client
 app = Flask(__name__)
 CORS(app)
@@ -26,8 +40,8 @@ def get_current_time():
     print("Request received for current time.")
     return jsonify({'time': time.time()})
 
-@app.route("/get_data", methods=["POST"])
-def get_data():
+@app.route("/get_test_data", methods=["POST"])
+def get_test_data():
     # print(f"I LOVE MEN")
     data = request.get_json()
     latitude = data.get("latitude")
@@ -126,6 +140,45 @@ def get_data():
     # Return the JSON response with the formatted data
     return jsonify(response_data)
 
+@app.route("/get_data", methods=["POST"])
+async def get_data():
+    data = request.get_json()
+    latitude = data.get("latitude")
+    longitude = data.get("longitude")
+    radius = data.get("radius")
+
+    request_radius = 100
+    
+    # Validate the radius
+    if radius > 2000:
+        return jsonify({"error": "Invalid request: radius exceeds 2000"}), 400
+    # Validate latitude and longitude
+    if not (-90 <= latitude <= 90):
+        return jsonify({"error": "Invalid latitude: must be between -90 and 90"}), 400
+    if not (-180 <= longitude <= 180):
+        return jsonify({"error": "Invalid longitude: must be between -180 and 180"}), 400
+    
+    print(f"Received Latitude: {latitude}, Longitude: {longitude}, Radius: {radius}")
+    geo = Geometry(request_radius)  # Be very careful when making this value smaller
+    google_places = GooglePlacesAPI(API_KEY, 1)
+    
+    # Get the square centers around the circle (returns (x, y) Cartesian coordinates) where 1 unit is 1m
+    square_centers = geo.cover_circle_with_squares(circle_x=0, circle_y=0, radius=radius)
+    # Convert square centers (displacements) into latitude and longitude
+    coordinates = geo.meters_to_latlon(latitude, longitude, square_centers)
+
+    # Async call to fetch places
+    places_data = await google_places.get_places_near_coordinates(coordinates)
+    
+    # Process normally if the request is valid
+    return jsonify({
+        "message": "Valid request",
+        "latitude": latitude,
+        "longitude": longitude,
+        "radius": radius,
+        "places_data": places_data
+    })
+
 @app.route("/get_reviews", methods=["POST"])
 def get_reviews():
     data = request.get_json()
@@ -162,5 +215,6 @@ def get_reviews():
 
     return jsonify(reviews_data)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)

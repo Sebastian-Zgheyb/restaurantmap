@@ -3,80 +3,15 @@ import aiohttp
 import time
 import json
 
+from utils.google_places import GooglePlacesAPI
+
 def load_api_key(file_path="../../api_keys.txt"):
     with open(file_path, "r") as file:
         return file.read().strip()
 
 API_KEY = load_api_key()
 
-async def fetch_places(session, lat, lon, headers):
-    url = "https://places.googleapis.com/v1/places:searchNearby"
-    payload = {
-        "includedTypes": ["restaurant"],
-        "maxResultCount": 1,
-        "locationRestriction": {
-            "circle": {
-                "center": {
-                    "latitude": lat,
-                    "longitude": lon
-                },
-                "radius": 125.0
-            }
-        }
-    }
 
-    async with session.post(url, json=payload, headers=headers) as response:
-        if response.status == 200:
-            return await response.json()
-        else:
-            print(f"Failed to get data for Latitude: {lat}, Longitude: {lon}. Status Code: {response.status}")
-            return None
-
-async def get_places_near_coordinates(coordinates):
-    url = "https://places.googleapis.com/v1/places:searchNearby"
-    headers = {
-        "Content-Type": "application/json",
-        "X-Goog-Api-Key": API_KEY,
-        "X-Goog-FieldMask": "places.displayName,places.id,places.location,places.types,places.rating,places.priceLevel,places.priceRange"
-    }
-
-    place_ids_set = set()
-    places_dict = {}
-
-    async with aiohttp.ClientSession() as session:
-        tasks = [fetch_places(session, lat, lon, headers) for lat, lon in coordinates]
-        responses = await asyncio.gather(*tasks)
-
-        for data in responses:
-            if data:
-                places = data.get("places", [])
-                for place in places:
-                    place_id = place.get("id")
-                    if place_id and place_id not in place_ids_set:
-                        place_ids_set.add(place_id)
-                        places_dict[place_id] = place
-
-    places_list = []
-    for place_id, place_info in places_dict.items():
-        location = place_info.get('location', {})
-        lat = location.get('latitude')
-        lon = location.get('longitude')
-
-        places_list.append({
-            "id": place_id,
-            "name": place_info.get('displayName', {}).get('text'),
-            "types": place_info.get('types'),
-            "rating": place_info.get('rating'),
-            "priceLevel": place_info.get('priceLevel'),
-            "priceRange": place_info.get('priceRange'),
-            "latitude": lat,
-            "longitude": lon
-        })
-
-    return {
-        "totalUniquePlaces": len(places_dict),
-        "places": places_list
-    }
 
 # Example usage
 coordinates = [
@@ -120,9 +55,18 @@ coordinates = [
     (37.7972, -122.4076), (37.7927, -122.4017), (37.7834, -122.4008)
 ]
 
+# Create an instance of the GooglePlacesAPI class
+google_places = GooglePlacesAPI(api_key=API_KEY)
+
 # Measure the time taken for asynchronous requests
 start_time = time.time()
-places_dict = asyncio.run(get_places_near_coordinates(coordinates))
+places_data = asyncio.run(google_places.get_places_near_coordinates(coordinates))
 end_time = time.time()
 
+# Dump the places data to a JSON file
+output_file_path = "places_data.json"
+with open(output_file_path, "w") as json_file:
+    json.dump(places_data, json_file, indent=2)
+
 print(f"Time taken: {end_time - start_time} seconds")
+print(f"Places data has been saved to {output_file_path}")
