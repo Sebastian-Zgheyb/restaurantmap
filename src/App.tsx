@@ -1,11 +1,14 @@
-import Map from "./components/Map";
+import { useRef } from "react";
 
+import Map from "./components/Map";
+import Navbar from "./components/Navbar";
 function App() {
+
   return (
     <div>
-        <Map />
+      <Navbar searchInputRef={null} />
+      <Map />
     </div>
-    
   );
 }
 
