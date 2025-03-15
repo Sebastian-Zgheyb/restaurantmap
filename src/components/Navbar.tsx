@@ -57,8 +57,9 @@ const Navbar: React.FC<NavbarProps> = ({ searchInputRef }) => {
         </div>
       </div>
 
-      <div className="flex items-center text-white ml-8">
-      <label htmlFor="radius-slider" className="mr-2">Radius:</label>
+      <div className="flex items-center gap-2 text-white">
+      <label htmlFor="radius-slider" className="mr-2">Radius: </label>
+      <span className="ml-2">{radius}</span>
       <input
         id="radius-slider"
         type="range"
@@ -67,8 +68,13 @@ const Navbar: React.FC<NavbarProps> = ({ searchInputRef }) => {
         value={radius}
         onChange={(e) => setRadius(Number(e.target.value))}
         className="w-24"
+        style={{
+          width: '100%',
+          accentColor: 'blue', // Modern browsers support this for styling
+        }}
       />
-  <span className="ml-2">{radius}</span>
+
+  
 </div>
     </nav>
   );
