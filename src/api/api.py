@@ -90,13 +90,13 @@ async def get_data():
     
     print(f"Received Latitude: {latitude}, Longitude: {longitude}, Radius: {radius}")
     geo = Geometry(100)
-    google_places = GooglePlacesAPI(API_KEY, 1)
+    google_places = GooglePlacesAPI(API_KEY, 20, 25)
     
     square_centers = geo.cover_circle_with_squares(circle_x=0, circle_y=0, radius=radius)
     coordinates = geo.meters_to_latlon(latitude, longitude, square_centers)
     
     places_data = await google_places.get_places_near_coordinates(coordinates)
-    print("Generated places_data:", places_data)
+    # print("Generated places_data:", places_data)
     return jsonify(places_data)
 
 @app.route("/get_reviews", methods=["POST"])

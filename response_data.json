@@ -1,0 +1,1190 @@
+{
+    "places": [
+        {
+            "id": "ChIJ6zKDW9axEmsRATN9DcxvROM",
+            "latitude": -33.8875972,
+            "longitude": 151.19471389999998,
+            "name": "The Duck Inn Pub & Kitchen",
+            "priceLevel": "PRICE_LEVEL_MODERATE",
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "40"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                }
+            },
+            "rating": 4.1,
+            "types": [
+                "pub",
+                "bar",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJmdfIvCmuEmsRD3b3UoWDNjk",
+            "latitude": -33.8837198,
+            "longitude": 151.19477,
+            "name": "Off Broadway Hotel",
+            "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "40"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                }
+            },
+            "rating": 4,
+            "types": [
+                "bar",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJl6SBsSmvEmsRAP5zlNux8W8",
+            "latitude": -33.883708299999995,
+            "longitude": 151.19480149999998,
+            "name": "Mae - Ong Thai @Broadway",
+            "priceLevel": null,
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "1"
+                }
+            },
+            "rating": 4.3,
+            "types": [
+                "thai_restaurant",
+                "restaurant",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJ7aKzuimuEmsRsxTrDlarzHU",
+            "latitude": -33.8837981,
+            "longitude": 151.19474259999998,
+            "name": "Merchants of Ultimo",
+            "priceLevel": "PRICE_LEVEL_MODERATE",
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "40"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                }
+            },
+            "rating": 4,
+            "types": [
+                "restaurant",
+                "hamburger_restaurant",
+                "vegan_restaurant",
+                "vegetarian_restaurant",
+                "american_restaurant",
+                "dessert_shop",
+                "confectionery",
+                "breakfast_restaurant",
+                "pizza_restaurant",
+                "point_of_interest",
+                "bakery",
+                "food_store",
+                "store",
+                "food",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJB9EgNHuvEmsRoPT5so-CQqk",
+            "latitude": -33.8837012,
+            "longitude": 151.1943997,
+            "name": "KFC",
+            "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "1"
+                }
+            },
+            "rating": 2.2,
+            "types": [
+                "fast_food_restaurant",
+                "meal_takeaway",
+                "restaurant",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJS1hJqa-vEmsRosxiZ9qX69I",
+            "latitude": -33.8837013,
+            "longitude": 151.1943992,
+            "name": "Starbucks Broadway",
+            "priceLevel": "PRICE_LEVEL_MODERATE",
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "1"
+                }
+            },
+            "rating": 3.2,
+            "types": [
+                "coffee_shop",
+                "cafe",
+                "point_of_interest",
+                "food_store",
+                "store",
+                "food",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJjyFXfyiuEmsR3erhK_wZMLY",
+            "latitude": -33.8837511,
+            "longitude": 151.1948086,
+            "name": "Boost Juice Broadway",
+            "priceLevel": "PRICE_LEVEL_MODERATE",
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "1"
+                }
+            },
+            "rating": 2.7,
+            "types": [
+                "juice_shop",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJw5XiqYCvEmsRZ09gBmmcuwo",
+            "latitude": -33.8837013,
+            "longitude": 151.1943992,
+            "name": "Motto Motto Japanese Kitchen - Broadway",
+            "priceLevel": "PRICE_LEVEL_MODERATE",
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "1"
+                }
+            },
+            "rating": 4.7,
+            "types": [
+                "japanese_restaurant",
+                "ramen_restaurant",
+                "restaurant",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJN6tMo52vEmsRgVAl-y_TZDU",
+            "latitude": -33.8837013,
+            "longitude": 151.1943992,
+            "name": "Acai Bowls Sydney",
+            "priceLevel": null,
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "1"
+                }
+            },
+            "rating": 4.1,
+            "types": [
+                "acai_shop",
+                "brazilian_restaurant",
+                "restaurant",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJdWZAuymuEmsRwl1B66cPU9M",
+            "latitude": -33.8837012,
+            "longitude": 151.1943997,
+            "name": "Zeus Street Greek Broadway Sydney",
+            "priceLevel": "PRICE_LEVEL_MODERATE",
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "40"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                }
+            },
+            "rating": 3.9,
+            "types": [
+                "greek_restaurant",
+                "catering_service",
+                "food_delivery",
+                "meal_takeaway",
+                "restaurant",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJS1VVlSiuEmsRiSmahXKNdX0",
+            "latitude": -33.8837013,
+            "longitude": 151.1943992,
+            "name": "Schnitz Broadway",
+            "priceLevel": "PRICE_LEVEL_MODERATE",
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "1"
+                }
+            },
+            "rating": 3.4,
+            "types": [
+                "restaurant",
+                "fast_food_restaurant",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJTTYL08CvEmsRi-0JMsB0k9Y",
+            "latitude": -33.8837417,
+            "longitude": 151.19476699999998,
+            "name": "No. 1 Malatang",
+            "priceLevel": null,
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "40"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                }
+            },
+            "rating": 2.7,
+            "types": [
+                "chinese_restaurant",
+                "restaurant",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJ2e3vvCmuEmsRVoH1eYdgwsQ",
+            "latitude": -33.8836394,
+            "longitude": 151.1947166,
+            "name": "Three Beans Broadway",
+            "priceLevel": "PRICE_LEVEL_MODERATE",
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "1"
+                }
+            },
+            "rating": 3.1,
+            "types": [
+                "coffee_shop",
+                "cafe",
+                "brunch_restaurant",
+                "breakfast_restaurant",
+                "restaurant",
+                "point_of_interest",
+                "food_store",
+                "store",
+                "food",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJWW4GIsyvEmsRIMDaBgAsEjE",
+            "latitude": -33.8837013,
+            "longitude": 151.1943992,
+            "name": "Mochi Donuts Broadway",
+            "priceLevel": null,
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "1"
+                }
+            },
+            "rating": 4.2,
+            "types": [
+                "donut_shop",
+                "point_of_interest",
+                "bakery",
+                "food_store",
+                "store",
+                "food",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJi8TFjX-vEmsROqY-PqXYWR4",
+            "latitude": -33.8837013,
+            "longitude": 151.1943992,
+            "name": "Killiney Kopitiam",
+            "priceLevel": null,
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "1"
+                }
+            },
+            "rating": 4.1,
+            "types": [
+                "restaurant",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJzTFBlymuEmsRftw3wXY7fGE",
+            "latitude": -33.8837013,
+            "longitude": 151.1943992,
+            "name": "Mumbai Express",
+            "priceLevel": "PRICE_LEVEL_MODERATE",
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "1"
+                }
+            },
+            "rating": 2.2,
+            "types": [
+                "indian_restaurant",
+                "restaurant",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJM8Njf8ivEmsRFjHXwlLOi4Q",
+            "latitude": -33.8837013,
+            "longitude": 151.1943992,
+            "name": "Brooklyn Donuts Broadway",
+            "priceLevel": null,
+            "priceRange": null,
+            "rating": 4.7,
+            "types": [
+                "dessert_shop",
+                "confectionery",
+                "point_of_interest",
+                "food_store",
+                "store",
+                "food",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJkcAoiyyvEmsR7xjXTz1CQ5M",
+            "latitude": -33.8837417,
+            "longitude": 151.19476699999998,
+            "name": "Dulcito Desserts - Broadway",
+            "priceLevel": null,
+            "priceRange": null,
+            "rating": 4.9,
+            "types": [
+                "dessert_shop",
+                "ice_cream_shop",
+                "confectionery",
+                "restaurant",
+                "point_of_interest",
+                "bakery",
+                "food_store",
+                "store",
+                "food",
+                "wholesaler",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJefq6LFivEmsRhnX_mCqstzU",
+            "latitude": -33.8837013,
+            "longitude": 151.1943992,
+            "name": "Pizzabot Broadway",
+            "priceLevel": null,
+            "priceRange": null,
+            "rating": 4.2,
+            "types": [
+                "meal_takeaway",
+                "restaurant",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJx26C8juvEmsRAAOiDXTqITw",
+            "latitude": -33.8837013,
+            "longitude": 151.1943992,
+            "name": "MOZITO",
+            "priceLevel": null,
+            "priceRange": null,
+            "rating": 5,
+            "types": [
+                "bar",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJUWYPNyiuEmsR2jzXAV1cLmg",
+            "latitude": -33.884842,
+            "longitude": 151.19626820000002,
+            "name": "La Herradura Coffee Stable",
+            "priceLevel": "PRICE_LEVEL_MODERATE",
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "40"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                }
+            },
+            "rating": 4.6,
+            "types": [
+                "cafe",
+                "restaurant",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJBepo2G6wEmsRiznxMm7SgL0",
+            "latitude": -33.8848467,
+            "longitude": 151.1961521,
+            "name": "Zigi\u2019s Wine Bar",
+            "priceLevel": "PRICE_LEVEL_MODERATE",
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "40"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                }
+            },
+            "rating": 4.8,
+            "types": [
+                "restaurant",
+                "wine_bar",
+                "bar",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJ_XvwnNexEmsRnlHERcORjl8",
+            "latitude": -33.8885437,
+            "longitude": 151.1977255,
+            "name": "KINDRED Restaurant",
+            "priceLevel": "PRICE_LEVEL_MODERATE",
+            "priceRange": null,
+            "rating": 4.8,
+            "types": [
+                "italian_restaurant",
+                "restaurant",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJu6ThMLexEmsRbQymZxzrQ-Y",
+            "latitude": -33.8874596,
+            "longitude": 151.19897029999998,
+            "name": "101 KISSA",
+            "priceLevel": "PRICE_LEVEL_MODERATE",
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "40"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                }
+            },
+            "rating": 4.7,
+            "types": [
+                "cafe",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJ9yaKay6xEmsRcGBBvlJ2SWo",
+            "latitude": -33.8875234,
+            "longitude": 151.1990175,
+            "name": "ZENIUS",
+            "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "40"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                }
+            },
+            "rating": 4.9,
+            "types": [
+                "cafe",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJAfs028uxEmsRiL1HtBJU23Q",
+            "latitude": -33.8874616,
+            "longitude": 151.19904879999999,
+            "name": "Encour",
+            "priceLevel": null,
+            "priceRange": null,
+            "rating": 5,
+            "types": [
+                "community_center",
+                "cafe",
+                "art_gallery",
+                "event_venue",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJdzLlD56vEmsRIOz-nPhqhvk",
+            "latitude": -33.8861902,
+            "longitude": 151.1989977,
+            "name": "Taste of Memory \u5bb6\u4e61\u7684\u5473\u9053",
+            "priceLevel": null,
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "40"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                }
+            },
+            "rating": 4.1,
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJ1zu-LqOvEmsRlB9DV-ww5_s",
+            "latitude": -33.8850292,
+            "longitude": 151.1991091,
+            "name": "Chowon Wagyu Korean BBQ & Omakase",
+            "priceLevel": null,
+            "priceRange": null,
+            "rating": 4.7,
+            "types": [
+                "korean_restaurant",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJa-69LACvEmsR5JTvgTxgvwc",
+            "latitude": -33.8848032,
+            "longitude": 151.1992355,
+            "name": "Dizzybird | Sydney Rotisserie Chicken",
+            "priceLevel": null,
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "40"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                }
+            },
+            "rating": 4.5,
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJhdMjLyauEmsRG-a2nUgxPFQ",
+            "latitude": -33.8835626,
+            "longitude": 151.1991734,
+            "name": "Cafe 10",
+            "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "1"
+                }
+            },
+            "rating": 4.2,
+            "types": [
+                "cafe",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJ7WdhetixEmsRzIf7Q-q6ocY",
+            "latitude": -33.887460499999996,
+            "longitude": 151.20083309999998,
+            "name": "Ester Restaurant",
+            "priceLevel": "PRICE_LEVEL_EXPENSIVE",
+            "priceRange": null,
+            "rating": 4.6,
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJUSv2cNixEmsR08ghuSn7ONk",
+            "latitude": -33.8874534,
+            "longitude": 151.2005948,
+            "name": "Piccolo Take Away",
+            "priceLevel": null,
+            "priceRange": null,
+            "rating": 4.7,
+            "types": [
+                "meal_takeaway",
+                "breakfast_restaurant",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJ1T38sSeuEmsRJm47QGX6GA8",
+            "latitude": -33.8847679,
+            "longitude": 151.2007763,
+            "name": "Woolworths Central Park",
+            "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+            "priceRange": null,
+            "rating": 4.1,
+            "types": [
+                "supermarket",
+                "coffee_shop",
+                "cafe",
+                "grocery_store",
+                "food_store",
+                "store",
+                "meal_takeaway",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJZSzuEmCvEmsRHWRKMblQoyE",
+            "latitude": -33.8847498,
+            "longitude": 151.20079619999998,
+            "name": "Sunny Seafood Central Park Mall\u5049\u6d0b\u6d77\u9bae\u9152\u6a13",
+            "priceLevel": null,
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "40"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                }
+            },
+            "rating": 4.4,
+            "types": [
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJMzL3HwCvEmsRMTsR7vcnHOo",
+            "latitude": -33.885002199999995,
+            "longitude": 151.2006816,
+            "name": "Little Indo Town",
+            "priceLevel": null,
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "40"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                }
+            },
+            "rating": 3.9,
+            "types": [
+                "asian_restaurant",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJO0yVFwCvEmsRFOoXYTWQPtg",
+            "latitude": -33.8848148,
+            "longitude": 151.2005575,
+            "name": "Urban Durian",
+            "priceLevel": null,
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "40"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                }
+            },
+            "rating": 3.1,
+            "types": [
+                "dessert_restaurant",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJybPWBgCvEmsRI5we970LNU0",
+            "latitude": -33.8850067,
+            "longitude": 151.2006787,
+            "name": "Bintang Bro Central Park",
+            "priceLevel": null,
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "40"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                }
+            },
+            "rating": 3.9,
+            "types": [
+                "indonesian_restaurant",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJn7aYsieuEmsRSdDgV-pyp_g",
+            "latitude": -33.884472699999996,
+            "longitude": 151.2007279,
+            "name": "Broadway",
+            "priceLevel": null,
+            "priceRange": null,
+            "rating": null,
+            "types": [
+                "food_court",
+                "subpremise",
+                "food",
+                "point_of_interest",
+                "establishment",
+                "street_address"
+            ]
+        },
+        {
+            "id": "ChIJQxwg-CauEmsRYLAunS2135c",
+            "latitude": -33.8837589,
+            "longitude": 151.2008797,
+            "name": "The Underground Sydney",
+            "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "40"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                }
+            },
+            "rating": 4.1,
+            "types": [
+                "bar",
+                "event_venue",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJX2dNXVmvEmsRyXUznqI19PE",
+            "latitude": -33.8809459,
+            "longitude": 151.20081679999998,
+            "name": "Kookaa",
+            "priceLevel": null,
+            "priceRange": null,
+            "rating": null,
+            "types": [
+                "meal_takeaway",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJu8nsgcOvEmsRD86UPXDbADg",
+            "latitude": -33.8809083,
+            "longitude": 151.2008057,
+            "name": "EAT DRINK LOCAL",
+            "priceLevel": null,
+            "priceRange": null,
+            "rating": null,
+            "types": [
+                "meal_delivery",
+                "food_delivery",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJlb16cgCvEmsRNoLqcvz0jo0",
+            "latitude": -33.885026499999995,
+            "longitude": 151.2020575,
+            "name": "Sedap Malaysian Street Food",
+            "priceLevel": null,
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "1"
+                }
+            },
+            "rating": 3.5,
+            "types": [
+                "asian_restaurant",
+                "restaurant",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJW3I0jSauEmsReSCbXHl2jG0",
+            "latitude": -33.8836976,
+            "longitude": 151.20242439999998,
+            "name": "McDonald's Ultimo",
+            "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "1"
+                }
+            },
+            "rating": 3.4,
+            "types": [
+                "fast_food_restaurant",
+                "hamburger_restaurant",
+                "cafe",
+                "meal_takeaway",
+                "american_restaurant",
+                "food_store",
+                "restaurant",
+                "point_of_interest",
+                "food",
+                "store",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJJQ45Rl2vEmsRFphdUABahyw",
+            "latitude": -33.883573,
+            "longitude": 151.2022635,
+            "name": "I HEART KPOP Sydney",
+            "priceLevel": null,
+            "priceRange": null,
+            "rating": 4.8,
+            "types": [
+                "cafe",
+                "point_of_interest",
+                "food",
+                "store",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJy7Ni7SauEmsRx1e_vo_UwvA",
+            "latitude": -33.883736,
+            "longitude": 151.202234,
+            "name": "Agincourt Hotel",
+            "priceLevel": "PRICE_LEVEL_MODERATE",
+            "priceRange": null,
+            "rating": 3.9,
+            "types": [
+                "pub",
+                "event_venue",
+                "bar",
+                "night_club",
+                "restaurant",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJw7cL6hGvEmsR09310nEhJnA",
+            "latitude": -33.883479300000005,
+            "longitude": 151.2024483,
+            "name": "Hunger D\u00f6ner Kebab",
+            "priceLevel": null,
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "40"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                }
+            },
+            "rating": 2,
+            "types": [
+                "turkish_restaurant",
+                "restaurant",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJM5wXrBmvEmsR67SEDgof4oU",
+            "latitude": -33.8835389,
+            "longitude": 151.20216209999998,
+            "name": "Nice Duck Chinese taste",
+            "priceLevel": null,
+            "priceRange": null,
+            "rating": 4.9,
+            "types": [
+                "restaurant",
+                "fast_food_restaurant",
+                "meal_takeaway",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJ-46XlhmvEmsRKga-iTPscQo",
+            "latitude": -33.8837293,
+            "longitude": 151.202229,
+            "name": "Last Words",
+            "priceLevel": null,
+            "priceRange": null,
+            "rating": 5,
+            "types": [
+                "bar",
+                "point_of_interest",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJfT_KsNivEmsRQAH-5u4HGJw",
+            "latitude": -33.8811568,
+            "longitude": 151.2024021,
+            "name": "Roadhouse Burgers & Ribs",
+            "priceLevel": "PRICE_LEVEL_MODERATE",
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "40"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                }
+            },
+            "rating": 4.7,
+            "types": [
+                "hamburger_restaurant",
+                "bar_and_grill",
+                "steak_house",
+                "american_restaurant",
+                "bar",
+                "restaurant",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJd278BCSuEmsRHqSepDlFM4w",
+            "latitude": -33.8822956,
+            "longitude": 151.2039021,
+            "name": "Satang Thai Takeway",
+            "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "1"
+                }
+            },
+            "rating": 4.3,
+            "types": [
+                "thai_restaurant",
+                "meal_takeaway",
+                "restaurant",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJHQg58oOvEmsRp0cUs1_pyus",
+            "latitude": -33.8822993,
+            "longitude": 151.2035426,
+            "name": "Haymarket Kitchen",
+            "priceLevel": null,
+            "priceRange": {
+                "endPrice": {
+                    "currencyCode": "AUD",
+                    "units": "40"
+                },
+                "startPrice": {
+                    "currencyCode": "AUD",
+                    "units": "20"
+                }
+            },
+            "rating": 3.8,
+            "types": [
+                "chinese_restaurant",
+                "restaurant",
+                "point_of_interest",
+                "food",
+                "establishment"
+            ]
+        },
+        {
+            "id": "ChIJg_qVfe2vEmsRKJOp1yYjMl8",
+            "latitude": -33.8825715,
+            "longitude": 151.2037785,
+            "name": "\u9526\u5dde\u70e7\u70e4 jinzhouBBQ",
+            "priceLevel": null,
+            "priceRange": null,
+            "rating": 4.5,
+            "types": [
+                "thai_restaurant",
+                "asian_restaurant",
+                "wine_bar",
+                "bar",
+                "restaurant",
+                "point_of_interest",
+                "food_store",
+                "store",
+                "food",
+                "establishment"
+            ]
+        }
+    ],
+    "totalUniquePlaces": 52
+}
