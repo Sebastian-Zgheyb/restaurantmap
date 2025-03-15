@@ -20,8 +20,8 @@
             "types": [
                 "pizza_restaurant",
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
             ],
             "userRatingCount": 1498
@@ -73,8 +73,8 @@
                 "bar",
                 "event_venue",
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
             ],
             "userRatingCount": 451
@@ -116,8 +116,8 @@
             "types": [
                 "korean_restaurant",
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
             ],
             "userRatingCount": 179
@@ -143,8 +143,8 @@
                 "vietnamese_restaurant",
                 "asian_restaurant",
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
             ],
             "userRatingCount": 61
@@ -159,8 +159,8 @@
             "rating": null,
             "types": [
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
             ],
             "userRatingCount": null
@@ -190,8 +190,8 @@
             "rating": 2.5,
             "types": [
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
             ],
             "userRatingCount": 2
@@ -207,8 +207,8 @@
             "types": [
                 "thai_restaurant",
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
             ],
             "userRatingCount": 6
@@ -233,8 +233,8 @@
             "types": [
                 "restaurant",
                 "meal_takeaway",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 217
@@ -258,8 +258,8 @@
             "rating": 4.5,
             "types": [
                 "juice_shop",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 34
@@ -283,11 +283,11 @@
             "rating": 3.4,
             "types": [
                 "coffee_shop",
-                "food_store",
                 "cafe",
-                "point_of_interest",
-                "food",
+                "food_store",
                 "store",
+                "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 36
@@ -311,8 +311,8 @@
             "rating": 2.7,
             "types": [
                 "cafe",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 88
@@ -327,8 +327,8 @@
             "rating": 5,
             "types": [
                 "juice_shop",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 2
@@ -343,11 +343,11 @@
             "rating": 3.7,
             "types": [
                 "coffee_shop",
-                "food_store",
                 "cafe",
-                "point_of_interest",
-                "food",
+                "food_store",
                 "store",
+                "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 10
@@ -414,11 +414,11 @@
             "rating": 4.6,
             "types": [
                 "coffee_shop",
+                "food_store",
                 "cafe",
                 "point_of_interest",
-                "food_store",
-                "store",
                 "food",
+                "store",
                 "establishment"
             ],
             "userRatingCount": 211
@@ -469,13 +469,13 @@
                 "coffee_shop",
                 "sandwich_shop",
                 "bagel_shop",
-                "cafe",
-                "restaurant",
-                "point_of_interest",
                 "bakery",
+                "restaurant",
                 "food_store",
-                "store",
+                "cafe",
+                "point_of_interest",
                 "food",
+                "store",
                 "establishment"
             ],
             "userRatingCount": 64
@@ -574,14 +574,14 @@
             "rating": 4.4,
             "types": [
                 "cafe",
-                "brunch_restaurant",
                 "coffee_shop",
+                "brunch_restaurant",
                 "breakfast_restaurant",
+                "restaurant",
+                "point_of_interest",
                 "food_store",
                 "store",
-                "restaurant",
                 "food",
-                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 244
@@ -606,8 +606,8 @@
             "types": [
                 "meal_takeaway",
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
             ],
             "userRatingCount": 83
@@ -631,8 +631,8 @@
             "rating": 4.9,
             "types": [
                 "cafe",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
             ],
             "userRatingCount": 16
@@ -648,10 +648,10 @@
             "types": [
                 "coffee_shop",
                 "cafe",
+                "point_of_interest",
                 "food_store",
                 "store",
                 "food",
-                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": null
@@ -675,8 +675,8 @@
             "rating": 4.4,
             "types": [
                 "cafe",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
             ],
             "userRatingCount": 187
@@ -700,11 +700,11 @@
             "rating": 4.2,
             "types": [
                 "pub",
-                "japanese_restaurant",
                 "bar",
+                "japanese_restaurant",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 1549
@@ -728,8 +728,8 @@
             "rating": 4.3,
             "types": [
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 30
@@ -754,10 +754,10 @@
             "types": [
                 "cafe",
                 "coffee_shop",
-                "point_of_interest",
                 "food_store",
                 "store",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 32
@@ -781,13 +781,13 @@
             "rating": 4.5,
             "types": [
                 "cafe",
-                "coffee_shop",
                 "mediterranean_restaurant",
-                "restaurant",
-                "point_of_interest",
+                "coffee_shop",
                 "food_store",
                 "store",
+                "restaurant",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 100
@@ -812,10 +812,10 @@
             "types": [
                 "coffee_shop",
                 "cafe",
-                "point_of_interest",
                 "food_store",
                 "store",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 13
@@ -831,10 +831,10 @@
             "types": [
                 "coffee_shop",
                 "cafe",
-                "point_of_interest",
                 "food_store",
                 "store",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 4
@@ -852,8 +852,8 @@
                 "sandwich_shop",
                 "food_delivery",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 36
@@ -868,10 +868,10 @@
             "rating": 4.3,
             "types": [
                 "cafe",
-                "point_of_interest",
                 "food_store",
                 "store",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 6
@@ -964,8 +964,8 @@
             "rating": 4.2,
             "types": [
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 372
@@ -991,8 +991,8 @@
                 "sandwich_shop",
                 "meal_takeaway",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 353
@@ -1016,12 +1016,12 @@
             "rating": 4.8,
             "types": [
                 "coffee_shop",
-                "food_store",
                 "cafe",
-                "point_of_interest",
-                "food",
+                "food_store",
                 "wholesaler",
                 "store",
+                "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 119
@@ -1155,8 +1155,8 @@
                 "asian_restaurant",
                 "japanese_restaurant",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 485
@@ -1181,8 +1181,8 @@
             "types": [
                 "cafeteria",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 706
@@ -1210,8 +1210,8 @@
                 "food_delivery",
                 "meal_takeaway",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 437
@@ -1237,8 +1237,8 @@
                 "sushi_restaurant",
                 "japanese_restaurant",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 219
@@ -1263,8 +1263,8 @@
             "types": [
                 "cafe",
                 "bar",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 329
@@ -1289,10 +1289,10 @@
             "types": [
                 "coffee_shop",
                 "cafe",
-                "point_of_interest",
                 "food_store",
                 "store",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 97
@@ -1320,8 +1320,8 @@
                 "food_delivery",
                 "meal_takeaway",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 244
@@ -1346,8 +1346,8 @@
             "types": [
                 "vietnamese_restaurant",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 45
@@ -1371,10 +1371,10 @@
             "rating": 4.4,
             "types": [
                 "korean_restaurant",
-                "restaurant",
-                "point_of_interest",
                 "store",
+                "restaurant",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 46
@@ -1389,8 +1389,8 @@
             "rating": null,
             "types": [
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": null
@@ -1405,8 +1405,8 @@
             "rating": null,
             "types": [
                 "cafe",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": null
@@ -1447,11 +1447,11 @@
                 "cafe",
                 "coffee_shop",
                 "breakfast_restaurant",
+                "food_store",
                 "restaurant",
                 "point_of_interest",
-                "food_store",
-                "store",
                 "food",
+                "store",
                 "establishment"
             ],
             "userRatingCount": 1588
@@ -1475,15 +1475,15 @@
             "rating": 4.1,
             "types": [
                 "cafe",
-                "sandwich_shop",
                 "coffee_shop",
                 "catering_service",
+                "sandwich_shop",
                 "food_delivery",
+                "food_store",
                 "restaurant",
                 "point_of_interest",
-                "food_store",
-                "store",
                 "food",
+                "store",
                 "establishment"
             ],
             "userRatingCount": 77
@@ -1508,8 +1508,8 @@
             "types": [
                 "mexican_restaurant",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 162
@@ -1533,10 +1533,10 @@
             "rating": 4.6,
             "types": [
                 "bakery",
+                "point_of_interest",
                 "food_store",
                 "store",
                 "food",
-                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 47
@@ -1551,8 +1551,8 @@
             "rating": 3.6,
             "types": [
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
             ],
             "userRatingCount": 47
@@ -1830,10 +1830,10 @@
             "rating": 4.6,
             "types": [
                 "bakery",
-                "point_of_interest",
                 "food_store",
-                "store",
+                "point_of_interest",
                 "food",
+                "store",
                 "establishment"
             ],
             "userRatingCount": 788
@@ -1885,10 +1885,10 @@
             "types": [
                 "coffee_shop",
                 "cafe",
-                "point_of_interest",
                 "food_store",
-                "store",
+                "point_of_interest",
                 "food",
+                "store",
                 "establishment"
             ],
             "userRatingCount": 118
@@ -2027,11 +2027,11 @@
             "rating": 4,
             "types": [
                 "bakery",
-                "sandwich_shop",
-                "restaurant",
                 "coffee_shop",
-                "food_store",
+                "sandwich_shop",
                 "cafe",
+                "food_store",
+                "restaurant",
                 "point_of_interest",
                 "food",
                 "store",
@@ -2074,8 +2074,8 @@
             "rating": 5,
             "types": [
                 "coffee_shop",
-                "food_store",
                 "cafe",
+                "food_store",
                 "point_of_interest",
                 "food",
                 "store",
@@ -2143,8 +2143,8 @@
             "rating": 4.5,
             "types": [
                 "wine_bar",
-                "bar",
                 "italian_restaurant",
+                "bar",
                 "restaurant",
                 "point_of_interest",
                 "food",
@@ -2223,8 +2223,8 @@
             "rating": 4,
             "types": [
                 "bar",
-                "event_venue",
                 "japanese_restaurant",
+                "event_venue",
                 "restaurant",
                 "point_of_interest",
                 "food",
@@ -2283,10 +2283,10 @@
             "rating": 3.5,
             "types": [
                 "thai_restaurant",
-                "asian_restaurant",
                 "meal_delivery",
                 "food_delivery",
                 "meal_takeaway",
+                "asian_restaurant",
                 "restaurant",
                 "point_of_interest",
                 "food",
@@ -2346,8 +2346,8 @@
             "types": [
                 "breakfast_restaurant",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 1981
@@ -2363,11 +2363,11 @@
             "types": [
                 "hotel",
                 "extended_stay_hotel",
+                "lodging",
                 "event_venue",
                 "restaurant",
-                "lodging",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 427
@@ -2384,8 +2384,8 @@
                 "mexican_restaurant",
                 "bar",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 3003
@@ -2526,16 +2526,16 @@
             "rating": 4.5,
             "types": [
                 "cafe",
-                "juice_shop",
-                "coffee_shop",
-                "breakfast_restaurant",
                 "sandwich_shop",
+                "juice_shop",
+                "breakfast_restaurant",
                 "bakery",
-                "food_store",
-                "store",
                 "restaurant",
-                "food",
+                "coffee_shop",
+                "food_store",
                 "point_of_interest",
+                "food",
+                "store",
                 "establishment"
             ],
             "userRatingCount": 147
@@ -2559,8 +2559,8 @@
             "rating": 4.6,
             "types": [
                 "cafe",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
             ],
             "userRatingCount": 34
@@ -2586,8 +2586,8 @@
                 "sushi_restaurant",
                 "japanese_restaurant",
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
             ],
             "userRatingCount": 34
@@ -2611,8 +2611,8 @@
             "rating": 5,
             "types": [
                 "cafe",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
             ],
             "userRatingCount": 25
@@ -2697,11 +2697,11 @@
             "rating": 4.3,
             "types": [
                 "american_restaurant",
-                "barbecue_restaurant",
                 "bar",
+                "barbecue_restaurant",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 1803
@@ -2727,8 +2727,8 @@
                 "brunch_restaurant",
                 "cafe",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 415
@@ -2753,8 +2753,8 @@
             "types": [
                 "bar",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 397
@@ -2777,15 +2777,15 @@
             },
             "rating": 4.1,
             "types": [
-                "seafood_restaurant",
                 "sushi_restaurant",
                 "meal_delivery",
                 "food_delivery",
-                "meal_takeaway",
+                "seafood_restaurant",
                 "japanese_restaurant",
+                "meal_takeaway",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 406
@@ -2810,8 +2810,8 @@
             "types": [
                 "turkish_restaurant",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 180
@@ -2837,8 +2837,8 @@
                 "pizza_restaurant",
                 "meal_takeaway",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 559
@@ -2865,8 +2865,8 @@
                 "asian_restaurant",
                 "meal_takeaway",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 78
@@ -2897,8 +2897,8 @@
             "rating": null,
             "types": [
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": null
@@ -2913,8 +2913,8 @@
             "rating": null,
             "types": [
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": null
@@ -2929,8 +2929,8 @@
             "rating": 5,
             "types": [
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 3
@@ -3323,19 +3323,19 @@
             "rating": 4.8,
             "types": [
                 "cafe",
-                "sandwich_shop",
-                "brunch_restaurant",
                 "catering_service",
+                "brunch_restaurant",
+                "coffee_shop",
                 "breakfast_restaurant",
+                "sandwich_shop",
                 "food_delivery",
                 "bar",
                 "event_venue",
-                "restaurant",
-                "coffee_shop",
                 "food_store",
-                "point_of_interest",
-                "food",
                 "store",
+                "restaurant",
+                "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 260
@@ -3360,9 +3360,9 @@
             "types": [
                 "bakery",
                 "food_store",
-                "point_of_interest",
-                "food",
                 "store",
+                "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 143
@@ -3378,8 +3378,8 @@
             "types": [
                 "korean_restaurant",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 355
@@ -3395,8 +3395,8 @@
             "types": [
                 "wine_bar",
                 "bar",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 242
@@ -3411,8 +3411,8 @@
             "rating": 4.4,
             "types": [
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 38
@@ -3437,12 +3437,12 @@
             "types": [
                 "cafe",
                 "dessert_shop",
-                "confectionery",
                 "bakery",
+                "confectionery",
                 "food_store",
-                "point_of_interest",
-                "food",
                 "store",
+                "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 60
@@ -3468,12 +3468,12 @@
                 "bakery",
                 "vegan_restaurant",
                 "vegetarian_restaurant",
-                "restaurant",
                 "food_store",
-                "point_of_interest",
-                "food",
                 "wholesaler",
                 "store",
+                "restaurant",
+                "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 39
@@ -3523,8 +3523,8 @@
             "rating": 4.5,
             "types": [
                 "japanese_restaurant",
-                "cafe",
                 "restaurant",
+                "cafe",
                 "point_of_interest",
                 "food",
                 "establishment"
@@ -3566,11 +3566,11 @@
             "rating": 4.5,
             "types": [
                 "coffee_shop",
+                "food_store",
                 "cafe",
                 "point_of_interest",
-                "food_store",
-                "store",
                 "food",
+                "store",
                 "establishment"
             ],
             "userRatingCount": 378
@@ -3610,10 +3610,10 @@
             "types": [
                 "cafe",
                 "home_goods_store",
-                "food_store",
                 "point_of_interest",
-                "food",
+                "food_store",
                 "store",
+                "food",
                 "establishment"
             ],
             "userRatingCount": 54
@@ -3644,15 +3644,15 @@
             "priceRange": null,
             "rating": 4.4,
             "types": [
-                "bicycle_store",
-                "sporting_goods_store",
-                "clothing_store",
                 "coffee_shop",
-                "food_store",
+                "bicycle_store",
                 "cafe",
+                "clothing_store",
+                "sporting_goods_store",
                 "point_of_interest",
-                "food",
+                "food_store",
                 "store",
+                "food",
                 "establishment"
             ],
             "userRatingCount": 162
@@ -3675,12 +3675,12 @@
             },
             "rating": 4.5,
             "types": [
+                "point_of_interest",
                 "bakery",
                 "food_store",
-                "point_of_interest",
+                "store",
                 "food",
                 "wholesaler",
-                "store",
                 "establishment"
             ],
             "userRatingCount": 100
@@ -3736,8 +3736,8 @@
             },
             "rating": 4.1,
             "types": [
-                "pub",
                 "night_club",
+                "pub",
                 "bar",
                 "event_venue",
                 "point_of_interest",
@@ -3755,13 +3755,13 @@
             "rating": 4,
             "types": [
                 "bar",
-                "hotel",
                 "liquor_store",
-                "lodging",
-                "store",
+                "hotel",
                 "restaurant",
-                "food",
+                "lodging",
                 "point_of_interest",
+                "food",
+                "store",
                 "establishment"
             ],
             "userRatingCount": 350
@@ -3785,8 +3785,8 @@
             "rating": 2.7,
             "types": [
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
             ],
             "userRatingCount": 190
@@ -3865,11 +3865,11 @@
             "rating": 4.2,
             "types": [
                 "pub",
-                "chinese_restaurant",
                 "bar",
+                "chinese_restaurant",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 1321
@@ -3893,11 +3893,11 @@
             "rating": 4.6,
             "types": [
                 "bakery",
-                "food_store",
                 "cafe",
-                "point_of_interest",
-                "food",
+                "food_store",
                 "store",
+                "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 379
@@ -3913,8 +3913,8 @@
             "types": [
                 "italian_restaurant",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 139
@@ -3930,8 +3930,8 @@
             "types": [
                 "restaurant",
                 "bar",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": null
@@ -3957,8 +3957,8 @@
                 "sandwich_shop",
                 "fast_food_restaurant",
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
             ],
             "userRatingCount": 548
@@ -3983,8 +3983,8 @@
             "types": [
                 "vietnamese_restaurant",
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
             ],
             "userRatingCount": 226
@@ -3999,8 +3999,8 @@
             "rating": null,
             "types": [
                 "cafe",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
             ],
             "userRatingCount": null

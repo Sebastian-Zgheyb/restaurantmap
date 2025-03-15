@@ -18,7 +18,7 @@ export default function MapComponent({ radius }: MapComponentProps) {
     try {
       console.log("Fetching heatmap data...");
   
-      const response = await fetch("http://127.0.0.1:8000/get_data", {
+      const response = await fetch("http://127.0.0.1:8000/get_test_data", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ latitude: lat, longitude: lng, radius }),
@@ -27,7 +27,6 @@ export default function MapComponent({ radius }: MapComponentProps) {
       const data = await response.json();
       console.log("Fetched data:", data);
   
-      // Correct data access
       if (!data || !data.places || !Array.isArray(data.places)) {
         console.error("Unexpected data format:", data);
         return;
@@ -35,22 +34,26 @@ export default function MapComponent({ radius }: MapComponentProps) {
   
       console.log("Heatmap raw places data:", data.places);
   
-      // Transform to Google Maps LatLng objects
-      const heatmapPoints = data.places.map(
-        (place: { latitude: number; longitude: number }) =>
-          new google.maps.LatLng(place.latitude, place.longitude)
-      );
+      // Transform data with weights
+      const heatmapPoints = data.places.map((place: { latitude: number; longitude: number; rating?: number; userRatingCount?: number }) => {
+        const rating = place.rating ?? 0;  // Default to 0 if undefined
+        const reviewCount = Math.max(place.userRatingCount ?? 1, 1); // Default to 1, avoid 0 in log
+        
+        const weight = rating * Math.log(reviewCount) * 0.2; // Weighted formula
+        console.log(weight);
+        return { location: new google.maps.LatLng(place.latitude, place.longitude), weight };
+      });
   
-      console.log("Transformed heatmap data:", heatmapPoints);
+      console.log("Transformed heatmap data with weights:", heatmapPoints);
   
-      // Update state and show heatmap
       setHeatmapData(heatmapPoints);
       setShowHeatmap(true);
-  
     } catch (error) {
       console.error("Error fetching heatmap data:", error);
     }
   };
+  
+  
   
   const mapRef = useRef<google.maps.Map | null>(null); // Reference to the Google Map instance
 
@@ -94,9 +97,11 @@ export default function MapComponent({ radius }: MapComponentProps) {
           <HeatmapLayer
             data={heatmapData}
             options={{
-              radius: 30,   // Adjust for visibility
-              opacity: 0.6, // Make heatmap visible
+              radius: 30,  
+              opacity: 0.6,
+              dissipating: true, // Ensures weight is considered properly
             }}
+            // just add "gradient: "
           />
         )}
 
