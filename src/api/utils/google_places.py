@@ -85,6 +85,7 @@ class GooglePlacesAPI:
                 "name": place_info.get('displayName', {}).get('text'),
                 "types": place_info.get('types'),
                 "rating": place_info.get('rating'),
+                "userRatingCount" : place_info.get('userRatingCount'),
                 "priceLevel": place_info.get('priceLevel'),
                 "priceRange": place_info.get('priceRange'),
                 "latitude": lat,

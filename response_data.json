@@ -20,10 +20,11 @@
             "types": [
                 "pizza_restaurant",
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 1498
         },
         {
             "id": "ChIJZSckAiGuEmsRYvBeyNZC8mg",
@@ -47,7 +48,8 @@
                 "bar",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 651
         },
         {
             "id": "ChIJx8MPnliLtAERj7Fa9CKIIiw",
@@ -71,10 +73,11 @@
                 "bar",
                 "event_venue",
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 451
         },
         {
             "id": "ChIJr1yZqSGuEmsR75f_VODXJfI",
@@ -90,7 +93,8 @@
                 "event_venue",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 108
         },
         {
             "id": "ChIJzWna6OGvEmsRIullsH8qivU",
@@ -112,10 +116,11 @@
             "types": [
                 "korean_restaurant",
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 179
         },
         {
             "id": "ChIJlbhzyauvEmsRueJP2_E6t-Q",
@@ -138,10 +143,11 @@
                 "vietnamese_restaurant",
                 "asian_restaurant",
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 61
         },
         {
             "id": "ChIJe0JHqiGuEmsRiMGbat2LZOU",
@@ -153,10 +159,11 @@
             "rating": null,
             "types": [
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": null
         },
         {
             "id": "ChIJbRXUGgCvEmsR7JYW-MlHqx4",
@@ -170,7 +177,8 @@
                 "bar",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": null
         },
         {
             "id": "ChIJjTu1zZGvEmsRu1IuciNJ45g",
@@ -182,10 +190,11 @@
             "rating": 2.5,
             "types": [
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 2
         },
         {
             "id": "ChIJoe9VCWWvEmsRWO1AY8HaXP4",
@@ -198,10 +207,11 @@
             "types": [
                 "thai_restaurant",
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 6
         },
         {
             "id": "ChIJ0zt_0iOuEmsRD5a0RFAvWCo",
@@ -223,10 +233,11 @@
             "types": [
                 "restaurant",
                 "meal_takeaway",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 217
         },
         {
             "id": "ChIJva1FMyKuEmsRx1PdRB2rAqs",
@@ -247,10 +258,11 @@
             "rating": 4.5,
             "types": [
                 "juice_shop",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 34
         },
         {
             "id": "ChIJU5j6tSOuEmsR-CRPtYY3Bd8",
@@ -272,12 +284,13 @@
             "types": [
                 "coffee_shop",
                 "cafe",
-                "point_of_interest",
                 "food_store",
                 "store",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 36
         },
         {
             "id": "ChIJvxvJylCvEmsRdzpo8EqA1aU",
@@ -298,10 +311,11 @@
             "rating": 2.7,
             "types": [
                 "cafe",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 88
         },
         {
             "id": "ChIJ9zoDIm2vEmsRz3NzvvUnN7Y",
@@ -313,10 +327,11 @@
             "rating": 5,
             "types": [
                 "juice_shop",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 2
         },
         {
             "id": "ChIJaUJOKCKuEmsR2V5Ne5wm8H0",
@@ -329,12 +344,13 @@
             "types": [
                 "coffee_shop",
                 "cafe",
-                "point_of_interest",
                 "food_store",
                 "store",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 10
         },
         {
             "id": "ChIJQX34MSCuEmsRZQ6c8s7ZRwg",
@@ -350,7 +366,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 673
         },
         {
             "id": "ChIJH366js-vEmsRcBKZdfb3FoA",
@@ -375,7 +392,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 325
         },
         {
             "id": "ChIJHUVSMyCuEmsRcOVnCCEwodc",
@@ -396,13 +414,14 @@
             "rating": 4.6,
             "types": [
                 "coffee_shop",
-                "cafe",
                 "food_store",
+                "cafe",
                 "point_of_interest",
                 "food",
                 "store",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 211
         },
         {
             "id": "ChIJlXFtxSGuEmsR9EjRTOHakZs",
@@ -426,7 +445,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 101
         },
         {
             "id": "ChIJORXI7F-vEmsREAHBQdhkvTE",
@@ -447,17 +467,18 @@
             "rating": 5,
             "types": [
                 "coffee_shop",
-                "bagel_shop",
                 "sandwich_shop",
-                "cafe",
+                "bagel_shop",
                 "bakery",
-                "food_store",
                 "restaurant",
+                "food_store",
+                "cafe",
                 "point_of_interest",
                 "food",
                 "store",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 64
         },
         {
             "id": "ChIJ9SL8lIavEmsRLwomvSLITsc",
@@ -481,7 +502,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 84
         },
         {
             "id": "ChIJpx1fHLOvEmsRrCH6tmL_1t4",
@@ -505,7 +527,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 21
         },
         {
             "id": "ChIJfYvvZVavEmsRAGg-HmdYFqc",
@@ -529,7 +552,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 8
         },
         {
             "id": "ChIJEfkJ6iGuEmsRJppa7rGY4zA",
@@ -553,13 +577,14 @@
                 "coffee_shop",
                 "brunch_restaurant",
                 "breakfast_restaurant",
-                "food_store",
                 "restaurant",
                 "point_of_interest",
-                "food",
+                "food_store",
                 "store",
+                "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 244
         },
         {
             "id": "ChIJ-UlVCpSvEmsRAN_kSEzPe7M",
@@ -584,7 +609,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 83
         },
         {
             "id": "ChIJC6F_iIqvEmsRLJID4c9_VfI",
@@ -608,7 +634,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 16
         },
         {
             "id": "ChIJbWC-IgCvEmsREWrT8mpC_Rg",
@@ -621,12 +648,13 @@
             "types": [
                 "coffee_shop",
                 "cafe",
-                "food_store",
                 "point_of_interest",
-                "food",
+                "food_store",
                 "store",
+                "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": null
         },
         {
             "id": "ChIJCbVBgAWvEmsRFQZAFgwKEXE",
@@ -647,10 +675,11 @@
             "rating": 4.4,
             "types": [
                 "cafe",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 187
         },
         {
             "id": "ChIJISFoEiKuEmsR8TMqpG8xgwQ",
@@ -677,7 +706,8 @@
                 "food",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 1549
         },
         {
             "id": "ChIJ6cXqSg2vEmsRPCrPgSEBQFM",
@@ -701,7 +731,8 @@
                 "food",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 30
         },
         {
             "id": "ChIJa-gXEiKuEmsR0LkNyvpkfoU",
@@ -728,7 +759,8 @@
                 "food",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 32
         },
         {
             "id": "ChIJX_vgFyKuEmsR0WxvjvYRjCs",
@@ -757,7 +789,8 @@
                 "food",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 100
         },
         {
             "id": "ChIJzdQTMWyvEmsRYE_exjDE2ow",
@@ -784,7 +817,8 @@
                 "food",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 13
         },
         {
             "id": "ChIJ_WoHPwCvEmsRVEy_Ljoloks",
@@ -802,7 +836,8 @@
                 "food",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 4
         },
         {
             "id": "ChIJIXypIiKuEmsRlWBeCtGQvs8",
@@ -820,7 +855,8 @@
                 "food",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 36
         },
         {
             "id": "ChIJU6b6DSKuEmsR-iD_4CxYsrw",
@@ -837,7 +873,8 @@
                 "food",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 6
         },
         {
             "id": "ChIJpQ8dYCKuEmsRw-lRYDb-GFc",
@@ -863,7 +900,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 467
         },
         {
             "id": "ChIJJy6qHQCvEmsRGEHBHzWY1rc",
@@ -888,7 +926,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 38
         },
         {
             "id": "ChIJA-JxO5uvEmsRycsVj1RdAj8",
@@ -903,7 +942,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 13
         },
         {
             "id": "ChIJq9MqYbKvEmsRuzR01CEU8CE",
@@ -924,10 +964,11 @@
             "rating": 4.2,
             "types": [
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 372
         },
         {
             "id": "ChIJr0XokCKuEmsR67bWxc8K0HM",
@@ -950,10 +991,11 @@
                 "sandwich_shop",
                 "meal_takeaway",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 353
         },
         {
             "id": "ChIJ4xyfmSKuEmsR4Q8cYHVhTlc",
@@ -975,13 +1017,14 @@
             "types": [
                 "coffee_shop",
                 "cafe",
-                "point_of_interest",
                 "food_store",
+                "wholesaler",
                 "store",
                 "food",
-                "wholesaler",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 119
         },
         {
             "id": "ChIJi_E5fx-uEmsRwTq2DFHduEI",
@@ -1002,16 +1045,17 @@
             "rating": 4.6,
             "types": [
                 "restaurant",
+                "cafe",
                 "vegan_restaurant",
                 "vegetarian_restaurant",
-                "cafe",
-                "bar",
-                "pizza_restaurant",
                 "italian_restaurant",
-                "food",
+                "pizza_restaurant",
+                "bar",
                 "point_of_interest",
+                "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 754
         },
         {
             "id": "ChIJDU1E1SGuEmsRBgj3hELybgs",
@@ -1026,10 +1070,11 @@
                 "sushi_restaurant",
                 "bar",
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 692
         },
         {
             "id": "ChIJyS2LpM2vEmsRc2S6o_BcRdo",
@@ -1047,10 +1092,11 @@
             "types": [
                 "fine_dining_restaurant",
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 323
         },
         {
             "id": "ChIJuayhWx-uEmsRBOwcx1_yUMU",
@@ -1073,10 +1119,11 @@
                 "asian_restaurant",
                 "meal_takeaway",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 80
         },
         {
             "id": "ChIJYQsEt62vEmsRMtM1ezC28Ug",
@@ -1090,10 +1137,11 @@
                 "cafe",
                 "wine_bar",
                 "bar",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 32
         },
         {
             "id": "ChIJPdZbbjuvEmsR6_SWq8QhQL0",
@@ -1110,7 +1158,8 @@
                 "food",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 485
         },
         {
             "id": "ChIJ2zP43oavEmsRZLjy-7z_WZo",
@@ -1135,7 +1184,8 @@
                 "food",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 706
         },
         {
             "id": "ChIJRT9TUh-uEmsR5mvG4D4FWGY",
@@ -1163,7 +1213,8 @@
                 "food",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 437
         },
         {
             "id": "ChIJ9QH-J7GvEmsRlbNeM54b3ao",
@@ -1189,7 +1240,8 @@
                 "food",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 219
         },
         {
             "id": "ChIJnf9UFoGvEmsRa1k0iHkT3tA",
@@ -1214,7 +1266,8 @@
                 "food",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 329
         },
         {
             "id": "ChIJEzUJTlSvEmsRrrxyUSefy0U",
@@ -1241,7 +1294,8 @@
                 "food",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 97
         },
         {
             "id": "ChIJ5_uJrRiuEmsRF3tgbK4tqLc",
@@ -1269,7 +1323,8 @@
                 "food",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 244
         },
         {
             "id": "ChIJtwcrp8mvEmsREtgrFTtRlgw",
@@ -1294,7 +1349,8 @@
                 "food",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 45
         },
         {
             "id": "ChIJax7qr6yvEmsRPBznAaL60CA",
@@ -1320,7 +1376,8 @@
                 "food",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 46
         },
         {
             "id": "ChIJPfs1Bf6vEmsRRNSsQf6J3T4",
@@ -1335,7 +1392,8 @@
                 "food",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": null
         },
         {
             "id": "ChIJm8TirRiuEmsRI3E5hKp970A",
@@ -1350,7 +1408,8 @@
                 "food",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": null
         },
         {
             "id": "ChIJ8f4OVR-uEmsRQSjif9PtuwE",
@@ -1364,7 +1423,8 @@
                 "bar",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": null
         },
         {
             "id": "ChIJm_F_mhiuEmsR3Ah4Quu1Odg",
@@ -1385,15 +1445,16 @@
             "rating": 4.2,
             "types": [
                 "cafe",
-                "breakfast_restaurant",
-                "restaurant",
                 "coffee_shop",
+                "breakfast_restaurant",
                 "food_store",
+                "restaurant",
                 "point_of_interest",
                 "food",
                 "store",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 1588
         },
         {
             "id": "ChIJAViunRiuEmsR8FprqevjN6g",
@@ -1414,17 +1475,18 @@
             "rating": 4.1,
             "types": [
                 "cafe",
-                "sandwich_shop",
-                "catering_service",
-                "food_delivery",
-                "restaurant",
                 "coffee_shop",
+                "catering_service",
+                "sandwich_shop",
+                "food_delivery",
                 "food_store",
+                "restaurant",
                 "point_of_interest",
                 "food",
                 "store",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 77
         },
         {
             "id": "ChIJP587GImxEmsREKt0Dhqi59M",
@@ -1449,7 +1511,8 @@
                 "food",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 162
         },
         {
             "id": "ChIJETyjJACvEmsRag01q7Bisz0",
@@ -1470,12 +1533,13 @@
             "rating": 4.6,
             "types": [
                 "bakery",
+                "point_of_interest",
                 "food_store",
                 "store",
                 "food",
-                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 47
         },
         {
             "id": "ChIJaejiwHSvEmsROFM3vC9P0WE",
@@ -1487,10 +1551,11 @@
             "rating": 3.6,
             "types": [
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 47
         },
         {
             "id": "ChIJhZn8INevEmsRf8uU48OObm0",
@@ -1511,12 +1576,13 @@
             "rating": 4.1,
             "types": [
                 "bakery",
-                "food_store",
                 "point_of_interest",
-                "food",
+                "food_store",
                 "store",
+                "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 871
         },
         {
             "id": "ChIJ6-90-heuEmsRYDLbI65_yMM",
@@ -1532,7 +1598,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 3578
         },
         {
             "id": "ChIJHRwF-BeuEmsRRwfUQVNfsdU",
@@ -1559,7 +1626,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 2088
         },
         {
             "id": "ChIJVT_s9xeuEmsRVHBopJU29wQ",
@@ -1575,7 +1643,8 @@
                 "bar",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 580
         },
         {
             "id": "ChIJockdFKCvEmsRvqCjlFT4W6M",
@@ -1592,7 +1661,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 596
         },
         {
             "id": "ChIJRUQv-ReuEmsROZ4_LbJG_G4",
@@ -1613,18 +1683,19 @@
             "rating": 4.2,
             "types": [
                 "restaurant",
-                "brunch_restaurant",
                 "hamburger_restaurant",
-                "shoe_store",
                 "meal_takeaway",
                 "american_restaurant",
+                "brunch_restaurant",
                 "event_venue",
+                "shoe_store",
                 "bar",
                 "point_of_interest",
-                "food",
                 "store",
+                "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 1255
         },
         {
             "id": "ChIJ__5QARiuEmsRQ_z_Ha43Zw4",
@@ -1645,14 +1716,15 @@
             "rating": 4.3,
             "types": [
                 "pub",
-                "cultural_landmark",
                 "historical_landmark",
-                "historical_place",
+                "cultural_landmark",
                 "event_venue",
+                "historical_place",
                 "bar",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 395
         },
         {
             "id": "ChIJq6o2MB-uEmsREnSWvkJvAxc",
@@ -1664,10 +1736,11 @@
             "rating": null,
             "types": [
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": null
         },
         {
             "id": "ChIJY8R87hiuEmsRaQBYLbODjHA",
@@ -1688,13 +1761,14 @@
             "rating": 4.3,
             "types": [
                 "italian_restaurant",
-                "meal_takeaway",
                 "pizza_restaurant",
+                "meal_takeaway",
                 "restaurant",
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 839
         },
         {
             "id": "ChIJSV3N8w2vEmsRXYee7WsX0wk",
@@ -1706,10 +1780,11 @@
             "rating": 5,
             "types": [
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 172
         },
         {
             "id": "ChIJWVjXlheuEmsRQlR0Pgddu54",
@@ -1730,10 +1805,11 @@
             "rating": 4.7,
             "types": [
                 "cafe",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 32
         },
         {
             "id": "ChIJH02TkoSvEmsRPnwennyXE2o",
@@ -1755,11 +1831,12 @@
             "types": [
                 "bakery",
                 "food_store",
-                "store",
-                "food",
                 "point_of_interest",
+                "food",
+                "store",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 788
         },
         {
             "id": "ChIJS846Ux6uEmsRyRjCkgLwEos",
@@ -1782,10 +1859,11 @@
                 "cafe",
                 "breakfast_restaurant",
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 812
         },
         {
             "id": "ChIJU8K-8NmvEmsRU_B77NkRtzA",
@@ -1808,11 +1886,12 @@
                 "coffee_shop",
                 "cafe",
                 "food_store",
-                "store",
-                "food",
                 "point_of_interest",
+                "food",
+                "store",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 118
         },
         {
             "id": "ChIJ6Q7RRc6vEmsRo_fPQHqquuM",
@@ -1834,10 +1913,11 @@
             "types": [
                 "restaurant",
                 "vegetarian_restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 95
         },
         {
             "id": "ChIJJVDZ3B6uEmsRh5d3g-9xJio",
@@ -1856,7 +1936,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 2968
         },
         {
             "id": "ChIJJ3NhZ62vEmsRq2YKFaDmB-c",
@@ -1872,7 +1953,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 919
         },
         {
             "id": "ChIJIT2BbkevEmsRxyskwZc6Lqk",
@@ -1896,7 +1978,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 887
         },
         {
             "id": "ChIJRTpU2n2vEmsRa22lgueOXtA",
@@ -1922,7 +2005,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 26
         },
         {
             "id": "ChIJCYyXazGvEmsRMFh48rxKD7Q",
@@ -1943,16 +2027,17 @@
             "rating": 4,
             "types": [
                 "bakery",
-                "sandwich_shop",
-                "restaurant",
                 "coffee_shop",
-                "food_store",
+                "sandwich_shop",
                 "cafe",
+                "food_store",
+                "restaurant",
                 "point_of_interest",
                 "food",
                 "store",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 83
         },
         {
             "id": "ChIJL866EbKvEmsR3QlbqpcyKAk",
@@ -1976,7 +2061,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 54
         },
         {
             "id": "ChIJU6BJRK2vEmsR6JzZ4XJdl18",
@@ -1988,13 +2074,14 @@
             "rating": 5,
             "types": [
                 "coffee_shop",
-                "food_store",
                 "cafe",
+                "food_store",
                 "point_of_interest",
                 "food",
                 "store",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 7
         },
         {
             "id": "ChIJo39n6B6uEmsRdO163qI4gJ8",
@@ -2009,7 +2096,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": null
         },
         {
             "id": "ChIJKXX_ThOuEmsRAhglR4lgM4g",
@@ -2026,7 +2114,8 @@
                 "food",
                 "store",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": null
         },
         {
             "id": "ChIJ75-1BwCvEmsRdwPXo6alBO4",
@@ -2041,7 +2130,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 202
         },
         {
             "id": "ChIJR_2W0R6uEmsRhNcgwUCZzp0",
@@ -2059,7 +2149,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 758
         },
         {
             "id": "ChIJz2U_0TOvEmsRTMF1st99vLg",
@@ -2084,7 +2175,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 374
         },
         {
             "id": "ChIJBcsvhvSvEmsRTSksJzJ73SU",
@@ -2109,7 +2201,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 201
         },
         {
             "id": "ChIJSUZi0B6uEmsRmzwdVy8JWcY",
@@ -2136,7 +2229,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 520
         },
         {
             "id": "ChIJbeRfFxGvEmsR0Te5k7lBfbs",
@@ -2161,7 +2255,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 38
         },
         {
             "id": "ChIJia1E0B6uEmsR3eHrZPhI3ts",
@@ -2175,7 +2270,8 @@
                 "bar",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 1
         },
         {
             "id": "ChIJmcCT0R6uEmsRiv6PHy6CY-g",
@@ -2195,7 +2291,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 183
         },
         {
             "id": "ChIJi1Cm0h6uEmsRglMlsX_GhKQ",
@@ -2211,7 +2308,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 597
         },
         {
             "id": "ChIJXRuaRACvEmsR_czLzuZAg9g",
@@ -2225,7 +2323,8 @@
                 "bar",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": null
         },
         {
             "id": "ChIJfVRIFhmuEmsRPIxaZiroMMg",
@@ -2247,10 +2346,11 @@
             "types": [
                 "breakfast_restaurant",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 1981
         },
         {
             "id": "ChIJdzgwPBmuEmsRwzrUnNBjdxU",
@@ -2266,10 +2366,11 @@
                 "lodging",
                 "event_venue",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 427
         },
         {
             "id": "ChIJ34xIS0CuEmsRnEMEuiC7WcQ",
@@ -2283,10 +2384,11 @@
                 "mexican_restaurant",
                 "bar",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 3003
         },
         {
             "id": "ChIJrxOoGhmuEmsR6IidElIyH6s",
@@ -2310,7 +2412,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 17
         },
         {
             "id": "ChIJH4-HCRmuEmsRy2QWZO_0S1E",
@@ -2325,7 +2428,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 1
         },
         {
             "id": "ChIJSy4ptBmuEmsRwLNJWAfh0Q0",
@@ -2338,13 +2442,14 @@
             "types": [
                 "italian_restaurant",
                 "cafe",
+                "restaurant",
+                "point_of_interest",
                 "food_store",
                 "store",
-                "restaurant",
                 "food",
-                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 885
         },
         {
             "id": "ChIJB4znidWvEmsRgWtCO8NUtPE",
@@ -2374,7 +2479,8 @@
                 "food",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 195
         },
         {
             "id": "ChIJK-hFHACvEmsRj_Vfcr3y2HE",
@@ -2398,7 +2504,8 @@
                 "food",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 35
         },
         {
             "id": "ChIJTS-pEheuEmsRUzhe-VPrwJo",
@@ -2430,7 +2537,8 @@
                 "food",
                 "store",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 147
         },
         {
             "id": "ChIJ1em2Z0CvEmsRKAoKkDTL0Yc",
@@ -2454,7 +2562,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 34
         },
         {
             "id": "ChIJ9WICoqCvEmsRrWwqCvCpS8s",
@@ -2480,7 +2589,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 34
         },
         {
             "id": "ChIJN-BPDByvEmsRIs3FglK6H3A",
@@ -2504,7 +2614,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 25
         },
         {
             "id": "ChIJuYrpKvOvEmsRYy6keJHBp2o",
@@ -2519,7 +2630,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 630
         },
         {
             "id": "ChIJs4Lblh6uEmsRlGsK1tv6qY8",
@@ -2540,12 +2652,13 @@
             "rating": 4.6,
             "types": [
                 "cafe",
-                "point_of_interest",
                 "food_store",
-                "store",
+                "point_of_interest",
                 "food",
+                "store",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 611
         },
         {
             "id": "ChIJzz9XpgGvEmsRlRO57qvO-mI",
@@ -2562,7 +2675,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 483
         },
         {
             "id": "ChIJPeYw_RmuEmsRvXxHpDnXZOE",
@@ -2583,13 +2697,14 @@
             "rating": 4.3,
             "types": [
                 "american_restaurant",
-                "barbecue_restaurant",
                 "bar",
+                "barbecue_restaurant",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 1803
         },
         {
             "id": "ChIJEdwss9-vEmsRC14s3FocXPY",
@@ -2612,10 +2727,11 @@
                 "brunch_restaurant",
                 "cafe",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 415
         },
         {
             "id": "ChIJIcSvWBeuEmsRG25EchRid6g",
@@ -2637,10 +2753,11 @@
             "types": [
                 "bar",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 397
         },
         {
             "id": "ChIJBcGnWReuEmsREnvD5n3FTB8",
@@ -2662,15 +2779,16 @@
             "types": [
                 "sushi_restaurant",
                 "meal_delivery",
-                "seafood_restaurant",
                 "food_delivery",
-                "meal_takeaway",
+                "seafood_restaurant",
                 "japanese_restaurant",
+                "meal_takeaway",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 406
         },
         {
             "id": "ChIJu-SIW7mvEmsRbVL6eOXM98I",
@@ -2692,10 +2810,11 @@
             "types": [
                 "turkish_restaurant",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 180
         },
         {
             "id": "ChIJi71Y4hmuEmsRIrSQke1u1i4",
@@ -2718,10 +2837,11 @@
                 "pizza_restaurant",
                 "meal_takeaway",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 559
         },
         {
             "id": "ChIJax7mnjGvEmsRK_aIWVrUWkA",
@@ -2742,13 +2862,14 @@
             "rating": 4.8,
             "types": [
                 "thai_restaurant",
-                "meal_takeaway",
                 "asian_restaurant",
+                "meal_takeaway",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 78
         },
         {
             "id": "ChIJ43tEU9yvEmsRLZgRQemdHak",
@@ -2759,11 +2880,12 @@
             "priceRange": null,
             "rating": 2.4,
             "types": [
-                "bar",
                 "night_club",
+                "bar",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 42
         },
         {
             "id": "ChIJjZcX4hmuEmsRFHxoPP-Ppfo",
@@ -2775,10 +2897,11 @@
             "rating": null,
             "types": [
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": null
         },
         {
             "id": "ChIJx5Qz7hGvEmsRCTswKZhGtBE",
@@ -2790,10 +2913,11 @@
             "rating": null,
             "types": [
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": null
         },
         {
             "id": "ChIJjacHjCmvEmsRwFRfvlUFJSc",
@@ -2805,10 +2929,11 @@
             "rating": 5,
             "types": [
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 3
         },
         {
             "id": "ChIJC78QMReuEmsR47yBEa6iDPQ",
@@ -2831,7 +2956,8 @@
                 "bar",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 1251
         },
         {
             "id": "ChIJ-wQ_RxeuEmsRBnDgfUNyjIs",
@@ -2854,16 +2980,17 @@
                 "cafe",
                 "sandwich_shop",
                 "catering_service",
-                "food_delivery",
                 "breakfast_restaurant",
+                "food_delivery",
                 "japanese_restaurant",
                 "restaurant",
-                "point_of_interest",
                 "food_store",
-                "store",
+                "point_of_interest",
                 "food",
+                "store",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 762
         },
         {
             "id": "ChIJ04H5RReuEmsRzuSfVMcRz6U",
@@ -2886,7 +3013,8 @@
                 "bar",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 556
         },
         {
             "id": "ChIJj5pMiamvEmsRdA2dm9BqbGM",
@@ -2912,7 +3040,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 293
         },
         {
             "id": "ChIJjeT_QBeuEmsR7ANq8EeSq3o",
@@ -2938,7 +3067,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 628
         },
         {
             "id": "ChIJxVUo8tCvEmsR0F03Rw213uY",
@@ -2964,7 +3094,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 635
         },
         {
             "id": "ChIJtft9OReuEmsRtzKA-UPy_yo",
@@ -2991,7 +3122,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 559
         },
         {
             "id": "ChIJbWHARheuEmsRBGzq2Z1X_lQ",
@@ -3017,7 +3149,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 724
         },
         {
             "id": "ChIJ-9INNheuEmsRW5jg2DHxHhk",
@@ -3030,15 +3163,16 @@
             "types": [
                 "italian_restaurant",
                 "wine_bar",
-                "event_venue",
                 "bar",
+                "event_venue",
                 "restaurant",
-                "point_of_interest",
                 "food_store",
-                "store",
+                "point_of_interest",
                 "food",
+                "store",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 1086
         },
         {
             "id": "ChIJbWHARheuEmsRKWsG7b69_7U",
@@ -3064,7 +3198,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 391
         },
         {
             "id": "ChIJY9wN27GvEmsRozgaibmwQlY",
@@ -3088,7 +3223,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 44
         },
         {
             "id": "ChIJy4gPRBeuEmsRzo6oFFu_rno",
@@ -3114,7 +3250,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 10
         },
         {
             "id": "ChIJo7toh_mvEmsRqri0DQ3QkB4",
@@ -3139,7 +3276,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 50
         },
         {
             "id": "ChIJrehL8huuEmsRWkDzlrcOgsM",
@@ -3163,7 +3301,8 @@
                 "bar",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 482
         },
         {
             "id": "ChIJmQhjNj6vEmsR3jZRV3Piae4",
@@ -3184,21 +3323,22 @@
             "rating": 4.8,
             "types": [
                 "cafe",
-                "sandwich_shop",
-                "brunch_restaurant",
                 "catering_service",
+                "brunch_restaurant",
+                "coffee_shop",
                 "breakfast_restaurant",
+                "sandwich_shop",
                 "food_delivery",
                 "bar",
                 "event_venue",
-                "restaurant",
-                "coffee_shop",
                 "food_store",
-                "point_of_interest",
-                "food",
                 "store",
+                "restaurant",
+                "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 260
         },
         {
             "id": "ChIJcwywY6KxEmsRMPkqRswAO7c",
@@ -3220,11 +3360,12 @@
             "types": [
                 "bakery",
                 "food_store",
-                "point_of_interest",
-                "food",
                 "store",
+                "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 143
         },
         {
             "id": "ChIJkw4KWYivEmsRH2UuZYRAGMw",
@@ -3237,10 +3378,11 @@
             "types": [
                 "korean_restaurant",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 355
         },
         {
             "id": "ChIJW9rodp2vEmsRCoUoDgyNvLQ",
@@ -3253,10 +3395,11 @@
             "types": [
                 "wine_bar",
                 "bar",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 242
         },
         {
             "id": "ChIJl-fC1iGvEmsRvaYf_3rfIsU",
@@ -3268,10 +3411,11 @@
             "rating": 4.4,
             "types": [
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 38
         },
         {
             "id": "ChIJPRHqEsivEmsR0Wgn648pPuI",
@@ -3293,14 +3437,15 @@
             "types": [
                 "cafe",
                 "dessert_shop",
-                "confectionery",
                 "bakery",
+                "confectionery",
                 "food_store",
-                "point_of_interest",
-                "food",
                 "store",
+                "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 60
         },
         {
             "id": "ChIJY0Zh-gKtEmsRHTgXuwq4Jkk",
@@ -3323,14 +3468,15 @@
                 "bakery",
                 "vegan_restaurant",
                 "vegetarian_restaurant",
-                "restaurant",
                 "food_store",
-                "point_of_interest",
-                "food",
                 "wholesaler",
                 "store",
+                "restaurant",
+                "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 39
         },
         {
             "id": "ChIJSevoKhquEmsR6DYpvkUsgr0",
@@ -3355,7 +3501,8 @@
                 "bar",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 3054
         },
         {
             "id": "ChIJ0W6iFVCvEmsR02zSDYH9DEs",
@@ -3376,12 +3523,13 @@
             "rating": 4.5,
             "types": [
                 "japanese_restaurant",
-                "cafe",
                 "restaurant",
+                "cafe",
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 713
         },
         {
             "id": "ChIJOUjUORquEmsRRFul8RY_0as",
@@ -3396,7 +3544,8 @@
                 "pub",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 161
         },
         {
             "id": "ChIJq6qWLhquEmsRjiPx-mY99rQ",
@@ -3417,13 +3566,14 @@
             "rating": 4.5,
             "types": [
                 "coffee_shop",
+                "food_store",
                 "cafe",
                 "point_of_interest",
-                "food_store",
-                "store",
                 "food",
+                "store",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 378
         },
         {
             "id": "ChIJF6wCRpqvEmsRs_IS0NuB_CM",
@@ -3437,7 +3587,8 @@
                 "bar",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 226
         },
         {
             "id": "ChIJoT0yg52vEmsRY5-KsV9lZ6Q",
@@ -3459,12 +3610,13 @@
             "types": [
                 "cafe",
                 "home_goods_store",
-                "food_store",
                 "point_of_interest",
-                "food",
+                "food_store",
                 "store",
+                "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 54
         },
         {
             "id": "ChIJ9VxXGhquEmsRICm7sFGr-38",
@@ -3480,7 +3632,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 320
         },
         {
             "id": "ChIJvVmbPhmuEmsRfk-i_6gRQUY",
@@ -3492,16 +3645,17 @@
             "rating": 4.4,
             "types": [
                 "coffee_shop",
-                "cafe",
                 "bicycle_store",
+                "cafe",
                 "clothing_store",
                 "sporting_goods_store",
-                "food_store",
                 "point_of_interest",
-                "food",
+                "food_store",
                 "store",
+                "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 162
         },
         {
             "id": "ChIJxxZfGRquEmsR9B6R6MKJrKk",
@@ -3521,14 +3675,15 @@
             },
             "rating": 4.5,
             "types": [
-                "bakery",
-                "wholesaler",
-                "food_store",
                 "point_of_interest",
-                "food",
+                "bakery",
+                "food_store",
                 "store",
+                "food",
+                "wholesaler",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 100
         },
         {
             "id": "ChIJ_fT5KhuvEmsRuR6qkSf8NJY",
@@ -3544,7 +3699,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 254
         },
         {
             "id": "ChIJT6M7rBCuEmsRVC0v9jqUHJg",
@@ -3559,7 +3715,8 @@
                 "bar",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 918
         },
         {
             "id": "ChIJZTMUsBCuEmsRrpF8BuG8McA",
@@ -3579,13 +3736,14 @@
             },
             "rating": 4.1,
             "types": [
-                "event_venue",
                 "night_club",
                 "pub",
                 "bar",
+                "event_venue",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 878
         },
         {
             "id": "ChIJeTTZqBCuEmsReniFW-xJ8pM",
@@ -3599,13 +3757,14 @@
                 "bar",
                 "liquor_store",
                 "hotel",
-                "lodging",
                 "restaurant",
+                "lodging",
                 "point_of_interest",
-                "store",
                 "food",
+                "store",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 350
         },
         {
             "id": "ChIJC9pBqRCuEmsR7N9ZV0E8hw4",
@@ -3629,7 +3788,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 190
         },
         {
             "id": "ChIJZTMUsBCuEmsR8e6-0WsMX3Q",
@@ -3652,7 +3812,8 @@
                 "bar",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 31
         },
         {
             "id": "ChIJp2-oqRCuEmsRXsDO5KZyaZ8",
@@ -3666,7 +3827,8 @@
                 "bar",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 1
         },
         {
             "id": "ChIJZTMUsBCuEmsR585QFFBexkE",
@@ -3681,7 +3843,8 @@
                 "bar",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 22
         },
         {
             "id": "ChIJl3F0uxuuEmsR1-VJdifvCm4",
@@ -3702,13 +3865,14 @@
             "rating": 4.2,
             "types": [
                 "pub",
-                "chinese_restaurant",
                 "bar",
+                "chinese_restaurant",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 1321
         },
         {
             "id": "ChIJV7U-rxuuEmsRcbEimzgmkBA",
@@ -3730,12 +3894,13 @@
             "types": [
                 "bakery",
                 "cafe",
-                "point_of_interest",
                 "food_store",
                 "store",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 379
         },
         {
             "id": "ChIJD8pQnfWvEmsReXwu0N6Zazc",
@@ -3748,10 +3913,11 @@
             "types": [
                 "italian_restaurant",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 139
         },
         {
             "id": "ChIJgVM5rxuuEmsRulBQFCFVp-c",
@@ -3764,10 +3930,11 @@
             "types": [
                 "restaurant",
                 "bar",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": null
         },
         {
             "id": "ChIJdc9DWhquEmsR7xbyQc0qCPQ",
@@ -3790,10 +3957,11 @@
                 "sandwich_shop",
                 "fast_food_restaurant",
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 548
         },
         {
             "id": "ChIJ56a8UBquEmsRCcrpxQEkgvw",
@@ -3815,10 +3983,11 @@
             "types": [
                 "vietnamese_restaurant",
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 226
         },
         {
             "id": "ChIJvwuMUBquEmsRLyC2jwMBz9k",
@@ -3830,10 +3999,11 @@
             "rating": null,
             "types": [
                 "cafe",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": null
         },
         {
             "id": "ChIJ-fkmjyKuEmsRsYfabieuWho",
@@ -3860,7 +4030,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 792
         },
         {
             "id": "ChIJkbGagVmvEmsRYv8kkF5G17s",
@@ -3878,7 +4049,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 205
         },
         {
             "id": "ChIJi0rxeBquEmsR8kZ87qiWv3I",
@@ -3903,7 +4075,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 346
         },
         {
             "id": "ChIJCbbjdACvEmsR-IE8Wq8BTwM",
@@ -3926,7 +4099,8 @@
                 "bar",
                 "point_of_interest",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 24
         },
         {
             "id": "ChIJ9fUC7NGvEmsRV46aYJOphuk",
@@ -3944,7 +4118,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": 12
         },
         {
             "id": "ChIJK9xSfhquEmsRjdRfk9jhAhs",
@@ -3959,7 +4134,8 @@
                 "point_of_interest",
                 "food",
                 "establishment"
-            ]
+            ],
+            "userRatingCount": null
         }
     ],
     "totalUniquePlaces": 176
