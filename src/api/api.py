@@ -90,7 +90,7 @@ async def get_data():
     
     print(f"Received Latitude: {latitude}, Longitude: {longitude}, Radius: {radius}")
     geo = Geometry(100)
-    google_places = GooglePlacesAPI(API_KEY, 20, 25)
+    google_places = GooglePlacesAPI(API_KEY, 20, 50)
     
     square_centers = geo.cover_circle_with_squares(circle_x=0, circle_y=0, radius=radius)
     coordinates = geo.meters_to_latlon(latitude, longitude, square_centers)

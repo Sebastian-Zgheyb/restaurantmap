@@ -12,11 +12,7 @@ class GooglePlacesAPI:
     async def fetch_places(self, session, lat, lon, headers):
         url = "https://places.googleapis.com/v1/places:searchNearby"
         payload = {
-            "includedTypes": [
-                "restaurant", "bar", "cafe", "bakery", "pub", "fast_food_restaurant", 
-                "ice_cream_shop", "coffee_shop", "dessert_shop", "sandwich_shop", 
-                "food_court", "juice_shop", "meal_takeaway", "meal_delivery", "wine_bar"
-            ],
+            "includedTypes": ["restaurant","bar","bakery","cafe","juice_shop","pub","diner"],
             "maxResultCount": self.maxResultCount,
             "locationRestriction": {
                 "circle": {
