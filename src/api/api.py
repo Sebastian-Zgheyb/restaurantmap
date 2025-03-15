@@ -171,7 +171,7 @@ async def get_data():
     places_data = await google_places.get_places_near_coordinates(coordinates)
     
     # Process normally if the request is valid
-    return jsonify({"data": places_data})
+    return jsonify(places_data)
 
 @app.route("/get_reviews", methods=["POST"])
 def get_reviews():
