@@ -1,4 +1,3 @@
-
 import Map from "./components/Map";
 import Navbar from "./components/Navbar";
 

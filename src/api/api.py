@@ -1,11 +1,22 @@
 import time
+import requests
 from flask import Flask, jsonify, request
 from flask_cors import CORS
+from nltk.sentiment import SentimentIntensityAnalyzer
+import nltk
 
+nltk.download("vader_lexicon")
+sia = SentimentIntensityAnalyzer()
+
+# start seb comment. for team members, feel free to do this another way if u want i dont think we even need to do lik ethis
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+API_KEY = os.getenv("GOOGLE_API_KEY")
+# end seb comment
 
 # // Include lattitude and longitude within server's JSON file back to client
-# // Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client
-
 app = Flask(__name__)
 CORS(app)
 # CORS(app, origins=["http://localhost:5174"])  # Allow requests only from this origin
@@ -17,7 +28,7 @@ def get_current_time():
 
 @app.route("/get_data", methods=["POST"])
 def get_data():
-    print(f"I LOVE MEN")
+    # print(f"I LOVE MEN")
     data = request.get_json()
     latitude = data.get("latitude")
     longitude = data.get("longitude")
@@ -115,7 +126,41 @@ def get_data():
     # Return the JSON response with the formatted data
     return jsonify(response_data)
 
+@app.route("/get_reviews", methods=["POST"])
+def get_reviews():
+    data = request.get_json()
+    place_id = data.get("place_id")
 
+    url = f"https://places.googleapis.com/v1/places/{place_id}"
+    API_KEY = "AIzaSyDaBBI4Y6jtOqEyBnImmRWF6bu0ubGxnZY"
+    headers = {
+        "Content-Type": "application/json",
+        "X-Goog-Api-Key": API_KEY,
+        "X-Goog-FieldMask": "reviews"
+    }
+
+    response = requests.get(url, headers=headers)
+    reviews_data = response.json()
+    
+    if "reviews" not in reviews_data:
+        return jsonify({"error": "No reviews found"}), 404
+
+    # Add sentiment analysis
+    for review in reviews_data.get("reviews", []):
+        text = review["text"]["text"]
+        sentiment_score = sia.polarity_scores(text)["compound"]
+
+        if sentiment_score >= 0.05:
+            sentiment_label = "positive"
+        elif sentiment_score <= -0.05:
+            sentiment_label = "negative"
+        else:
+            sentiment_label = "neutral"
+
+        review["sentiment_score"] = sentiment_score
+        review["sentiment_label"] = sentiment_label
+
+    return jsonify(reviews_data)
 
 if __name__ == '__main__':
     app.run(debug=True)
