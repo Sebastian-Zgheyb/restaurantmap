@@ -100,6 +100,8 @@ export default function MapComponent({ radius }: MapComponentProps) {
 
         {/* User-placed Marker */}
         {markerPosition && <Marker position={markerPosition} />}
+
+        
       </GoogleMap>
 
       {/* Debug Button to Show/Hide Heatmap */}
