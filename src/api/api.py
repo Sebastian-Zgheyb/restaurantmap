@@ -42,7 +42,6 @@ def get_current_time():
 
 @app.route("/get_test_data", methods=["POST"])
 def get_test_data():
-    # print(f"I LOVE MEN")
     data = request.get_json()
     latitude = data.get("latitude")
     longitude = data.get("longitude")
@@ -50,95 +49,99 @@ def get_test_data():
     
     print(f"Received Latitude: {latitude}, Longitude: {longitude}, Radius: {radius}")
     
-    # Define the response data in a cleaner format
     response_data = {
-        "totalUniquePlaces": 3,
-        "places": [
-            {
-                "id": "ChIJgetcRmGAhYARjDkShaWuWMs",
-                "name": "Oasis Grill",
-                "types": [
-                    "mediterranean_restaurant",
-                    "middle_eastern_restaurant",
-                    "restaurant",
-                    "food",
-                    "point_of_interest",
-                    "establishment"
-                ],
-                "rating": 4.5,
-                "priceLevel": "PRICE_LEVEL_MODERATE",
-                "priceRange": {
-                    "startPrice": {
-                        "currencyCode": "USD",
-                        "units": "10"
+        "message": "Valid request",
+        "latitude": latitude,
+        "longitude": longitude,
+        "radius": radius,
+        "places_data": {
+            "totalUniquePlaces": 3,
+            "places": [
+                {
+                    "id": "ChIJgetcRmGAhYARjDkShaWuWMs",
+                    "name": "Oasis Grill",
+                    "types": [
+                        "mediterranean_restaurant",
+                        "middle_eastern_restaurant",
+                        "restaurant",
+                        "food",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "rating": 4.5,
+                    "priceLevel": "PRICE_LEVEL_MODERATE",
+                    "priceRange": {
+                        "startPrice": {
+                            "currencyCode": "USD",
+                            "units": "10"
+                        },
+                        "endPrice": {
+                            "currencyCode": "USD",
+                            "units": "20"
+                        }
                     },
-                    "endPrice": {
-                        "currencyCode": "USD",
-                        "units": "20"
-                    }
+                    "latitude": 37.7944351,
+                    "longitude": -122.3967897
                 },
-                "latitude": 37.7944351,
-                "longitude": -122.3967897
-            },
-            {
-                "id": "ChIJ-U9G5Z6AhYARhPZImqlxUSk",
-                "name": "Jang",
-                "types": [
-                    "korean_restaurant",
-                    "fine_dining_restaurant",
-                    "japanese_restaurant",
-                    "restaurant",
-                    "point_of_interest",
-                    "food",
-                    "establishment"
-                ],
-                "rating": 3.8,
-                "priceLevel": None,
-                "priceRange": {
-                    "startPrice": {
-                        "currencyCode": "USD",
-                        "units": "100"
-                    }
-                },
-                "latitude": 37.774757,
-                "longitude": -122.4206092
-            },
-            {
-                "id": "ChIJIQRT5bOAj4ARtg_luwU-pP4",
-                "name": "Awaken Cafe & Roasting",
-                "types": [
-                    "coffee_shop",
-                    "art_gallery",
-                    "bar",
-                    "restaurant",
-                    "food_store",
-                    "cafe",
-                    "point_of_interest",
-                    "food",
-                    "store",
-                    "establishment"
-                ],
-                "rating": 4.4,
-                "priceLevel": "PRICE_LEVEL_MODERATE",
-                "priceRange": {
-                    "startPrice": {
-                        "currencyCode": "USD",
-                        "units": "1"
+                {
+                    "id": "ChIJ-U9G5Z6AhYARhPZImqlxUSk",
+                    "name": "Jang",
+                    "types": [
+                        "korean_restaurant",
+                        "fine_dining_restaurant",
+                        "japanese_restaurant",
+                        "restaurant",
+                        "point_of_interest",
+                        "food",
+                        "establishment"
+                    ],
+                    "rating": 3.8,
+                    "priceLevel": None,
+                    "priceRange": {
+                        "startPrice": {
+                            "currencyCode": "USD",
+                            "units": "100"
+                        }
                     },
-                    "endPrice": {
-                        "currencyCode": "USD",
-                        "units": "10"
-                    }
+                    "latitude": 37.774757,
+                    "longitude": -122.4206092
                 },
-                "latitude": 37.805308,
-                "longitude": -122.27084640000001
-            }
-        ]
+                {
+                    "id": "ChIJIQRT5bOAj4ARtg_luwU-pP4",
+                    "name": "Awaken Cafe & Roasting",
+                    "types": [
+                        "coffee_shop",
+                        "art_gallery",
+                        "bar",
+                        "restaurant",
+                        "food_store",
+                        "cafe",
+                        "point_of_interest",
+                        "food",
+                        "store",
+                        "establishment"
+                    ],
+                    "rating": 4.4,
+                    "priceLevel": "PRICE_LEVEL_MODERATE",
+                    "priceRange": {
+                        "startPrice": {
+                            "currencyCode": "USD",
+                            "units": "1"
+                        },
+                        "endPrice": {
+                            "currencyCode": "USD",
+                            "units": "10"
+                        }
+                    },
+                    "latitude": 37.805308,
+                    "longitude": -122.27084640000001
+                }
+            ]
+        }
     }
 
-
-    # Return the JSON response with the formatted data
     return jsonify(response_data)
+
 
 @app.route("/get_data", methods=["POST"])
 async def get_data():
@@ -169,7 +172,7 @@ async def get_data():
 
     # Async call to fetch places
     places_data = await google_places.get_places_near_coordinates(coordinates)
-    
+    print("Generated places_data:", places_data)
     # Process normally if the request is valid
     return jsonify({
         "message": "Valid request",

@@ -7,6 +7,45 @@ const defaultCenter = { lat: 53.551086, lng: 9.993682 };
 export default function MapComponent() {
   const [showHeatmap, setShowHeatmap] = useState(false);
   const [markerPosition, setMarkerPosition] = useState<{ lat: number; lng: number } | null>(null);
+  const [heatmapData, setHeatmapData] = useState<google.maps.LatLng[]>([]);
+
+  // Function to fetch heatmap data
+  const fetchHeatmapData = async (lat: number, lng: number, radius: number = 500) => {
+    try {
+      console.log("Fetching heatmap data...");
+
+      const response = await fetch("http://127.0.0.1:5000/get_data", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ latitude: lat, longitude: lng, radius }),
+      });
+
+      const data = await response.json();
+      console.log("Fetched data:", data);
+
+      // Validate fetched data
+      if (!data.places_data || !Array.isArray(data.places_data.places)) {
+        console.error("Unexpected data format:", data);
+        return;
+      }
+
+      console.log("Heatmap raw places data:", data.places_data.places);
+
+      // Transform to Google Maps LatLng objects
+      const heatmapPoints = data.places_data.places.map(
+        (place: { latitude: number; longitude: number }) => new google.maps.LatLng(place.latitude, place.longitude)
+      );
+
+      console.log("Transformed heatmap data:", heatmapPoints);
+
+      // Update state and show heatmap
+      setHeatmapData(heatmapPoints);
+      setShowHeatmap(true);  // Make sure heatmap gets displayed
+
+    } catch (error) {
+      console.error("Error fetching heatmap data:", error);
+    }
+  };
 
   return (
     <LoadScript googleMapsApiKey="AIzaSyDbokWMJyoCcOY7NUJI_mttcPL1pABK51o" libraries={["visualization"]}>
@@ -15,31 +54,27 @@ export default function MapComponent() {
         center={defaultCenter}
         zoom={13}
         onClick={(event) => {
-          if (event.latLng) {
-          setMarkerPosition({ lat: event.latLng.lat(), lng: event.latLng.lng() });
-          }
+          const newMarker = { lat: event.latLng.lat(), lng: event.latLng.lng() };
+          setMarkerPosition(newMarker);
+          fetchHeatmapData(newMarker.lat, newMarker.lng);
         }}
       >
         {/* Heatmap Layer */}
-        {showHeatmap && (
+        {showHeatmap && heatmapData.length > 0 && (
           <HeatmapLayer
-            data={[
-              new google.maps.LatLng(53.5505, 9.9937),
-              new google.maps.LatLng(53.5510, 9.9940),
-              new google.maps.LatLng(53.5520, 9.9950),
-              new google.maps.LatLng(53.5530, 9.9960),
-            ]}
+            data={heatmapData}
+            options={{
+              radius: 30,   // Adjust for visibility
+              opacity: 0.6, // Make heatmap visible
+            }}
           />
         )}
-
-        {/* Default Marker
-        <Marker position={defaultCenter} /> */}
 
         {/* User-placed Marker */}
         {markerPosition && <Marker position={markerPosition} />}
       </GoogleMap>
 
-      {/* Toggle Heatmap Button */}
+      {/* Debug Button to Show/Hide Heatmap */}
       <button
         onClick={() => setShowHeatmap(!showHeatmap)}
         style={{
