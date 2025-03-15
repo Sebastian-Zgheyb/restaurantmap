@@ -8,6 +8,7 @@ interface NavbarProps {
 
 const Navbar: React.FC<NavbarProps> = ({ searchInputRef }) => {
   const [activeBtn, setActiveBtn] = useState<string | null>(null);
+  const [radius, setRadius] = useState<number>(14); // Default radius
 
   const handleButtonClick = (btnName: string) => {
     setActiveBtn(btnName);
@@ -15,6 +16,7 @@ const Navbar: React.FC<NavbarProps> = ({ searchInputRef }) => {
 
   return (
     <nav className="navbar">
+      
       <div className="navbar-left">
         <h1 className="company-title">IndustryMap</h1>
       </div>
@@ -26,7 +28,8 @@ const Navbar: React.FC<NavbarProps> = ({ searchInputRef }) => {
           placeholder="Search for a place"
         />
       </div>
-      <div className="navbar-right">
+      
+      <div className="navbar-right space-x-2">
         <div className="nav-actions">
           <button
             className={`action-btn ${activeBtn === 'rating' ? 'active' : ''}`}
@@ -53,6 +56,26 @@ const Navbar: React.FC<NavbarProps> = ({ searchInputRef }) => {
           </select>
         </div>
       </div>
+
+      <div className="flex items-center gap-2 text-white">
+      <label htmlFor="radius-slider" className="mr-2">Radius: </label>
+      <span className="ml-2">{radius}</span>
+      <input
+        id="radius-slider"
+        type="range"
+        min={1}
+        max={50}
+        value={radius}
+        onChange={(e) => setRadius(Number(e.target.value))}
+        className="w-24"
+        style={{
+          width: '100%',
+          accentColor: 'blue', // Modern browsers support this for styling
+        }}
+      />
+
+  
+</div>
     </nav>
   );
 };
