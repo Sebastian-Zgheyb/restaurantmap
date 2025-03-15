@@ -11,6 +11,10 @@ const defaultPosition = { lat: 53.551086, lng: 9.993682 };
 
 export default function App() {
   const [open, setOpen] = useState(false);
+  // State handling 
+  const [markerPosition, setMarkerPosition] = useState<{ lat: number; lng: number } | null>(null);
+
+
 
   return (
     <APIProvider apiKey="AIzaSyDbokWMJyoCcOY7NUJI_mttcPL1pABK51o" libraries={["places"]}>
@@ -21,6 +25,16 @@ export default function App() {
           center={defaultPosition}
           style={{ width: "100%", height: "100%" }}
           mapId="b31661b678ace0c5"
+
+          // Onclick Handler
+          onClick={(event) => {
+            if (event.detail.latLng) {
+              const { lat, lng } = event.detail.latLng;
+              setMarkerPosition({ lat, lng }); // Set single marker position, replacing old
+            }
+          }}
+          
+          
         >
           {}
           <AdvancedMarker position={defaultPosition} onClick={() => setOpen(true)}>
@@ -36,7 +50,17 @@ export default function App() {
             </div>
 
             </InfoWindow>
+
+            
           )}
+
+          // Renders the markers
+          {markerPosition && (
+          <AdvancedMarker position={markerPosition}>
+              <Pin background="blue" />
+          </AdvancedMarker>
+)}
+
         </Map>
       </div>
     </APIProvider>
