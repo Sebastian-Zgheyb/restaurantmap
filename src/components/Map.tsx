@@ -17,39 +17,41 @@ export default function MapComponent({ radius }: MapComponentProps) {
   const fetchHeatmapData = async (lat: number, lng: number, radius: number = 500) => {
     try {
       console.log("Fetching heatmap data...");
-
+  
       const response = await fetch("http://127.0.0.1:8000/get_data", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ latitude: lat, longitude: lng, radius }),
       });
-
+  
       const data = await response.json();
       console.log("Fetched data:", data);
-
-      // Validate fetched data
-      if (!data.places_data || !Array.isArray(data.places_data.places)) {
+  
+      // Correct data access
+      if (!data || !data.places || !Array.isArray(data.places)) {
         console.error("Unexpected data format:", data);
         return;
       }
-
-      console.log("Heatmap raw places data:", data.places_data.places);
-
+  
+      console.log("Heatmap raw places data:", data.places);
+  
       // Transform to Google Maps LatLng objects
-      const heatmapPoints = data.places_data.places.map(
-        (place: { latitude: number; longitude: number }) => new google.maps.LatLng(place.latitude, place.longitude)
+      const heatmapPoints = data.places.map(
+        (place: { latitude: number; longitude: number }) =>
+          new google.maps.LatLng(place.latitude, place.longitude)
       );
-
+  
       console.log("Transformed heatmap data:", heatmapPoints);
-
+  
       // Update state and show heatmap
       setHeatmapData(heatmapPoints);
-      setShowHeatmap(true);  // Make sure heatmap gets displayed
-
+      setShowHeatmap(true);
+  
     } catch (error) {
       console.error("Error fetching heatmap data:", error);
     }
   };
+  
   const mapRef = useRef<google.maps.Map | null>(null); // Reference to the Google Map instance
 
   
