@@ -1,11 +1,13 @@
-import Map from "./components/Map";
+import MapComponent from "./components/Map";
+import Navbar from "./components/Navbar";
 
 function App() {
+
   return (
     <div>
-        <Map />
+      <Navbar searchInputRef={null} />
+      <MapComponent />
     </div>
-    
   );
 }
 

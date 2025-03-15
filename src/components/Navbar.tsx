@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import './styles/Navbar.css';
+// import './styles/Navbar.css';
 
 // Define the type for Navbar props
 interface NavbarProps {
-  searchInputRef: React.RefObject<HTMLInputElement>;
+  searchInputRef: React.RefObject<HTMLInputElement> | null;
 }
 
 const Navbar: React.FC<NavbarProps> = ({ searchInputRef }) => {

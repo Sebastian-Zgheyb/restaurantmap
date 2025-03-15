@@ -1,92 +1,95 @@
-import React, { useState, useRef, useEffect } from "react";
-import Navbar from "./Navbar";
-import {
-  AdvancedMarker,
-  APIProvider,
-  Map,
-  Pin,
-  InfoWindow,
-} from "@vis.gl/react-google-maps";
+import { useState } from "react";
+import { GoogleMap, LoadScript, HeatmapLayer, Marker } from "@react-google-maps/api";
 
+const mapContainerStyle = { width: "100vw", height: "100vh" };
+const defaultCenter = { lat: -34.9285, lng: 138.6007 };
 
-interface Place {
-  position: { lat: number; lng: number };
-  name: string;
-}
+export default function MapComponent() {
+  const [showHeatmap, setShowHeatmap] = useState(false);
+  const [markerPosition, setMarkerPosition] = useState<{ lat: number; lng: number } | null>(null);
+  const [heatmapData, setHeatmapData] = useState<google.maps.LatLng[]>([]);
 
-export default function App() {
-  const defaultPosition = { lat: 53.551086, lng: 9.993682 };
-  const [open, setOpen] = useState(false);
-  const [places, setPlaces] = useState<Place[]>([]);
-  const searchInputRef = useRef<HTMLInputElement>(null);
+  // Function to fetch heatmap data
+  const fetchHeatmapData = async (lat: number, lng: number, radius: number = 500) => {
+    try {
+      console.log("Fetching heatmap data...");
 
-  const handlePlaceChange = (place: google.maps.places.PlaceResult) => {
-    if (!place.geometry || !place.geometry.location) {
-  
-      return;
+      const response = await fetch("http://127.0.0.1:5000/get_data", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ latitude: lat, longitude: lng, radius }),
+      });
+
+      const data = await response.json();
+      console.log("Fetched data:", data);
+
+      // Validate fetched data
+      if (!data.places_data || !Array.isArray(data.places_data.places)) {
+        console.error("Unexpected data format:", data);
+        return;
+      }
+
+      console.log("Heatmap raw places data:", data.places_data.places);
+
+      // Transform to Google Maps LatLng objects
+      const heatmapPoints = data.places_data.places.map(
+        (place: { latitude: number; longitude: number }) => new google.maps.LatLng(place.latitude, place.longitude)
+      );
+
+      console.log("Transformed heatmap data:", heatmapPoints);
+
+      // Update state and show heatmap
+      setHeatmapData(heatmapPoints);
+      setShowHeatmap(true);  // Make sure heatmap gets displayed
+
+    } catch (error) {
+      console.error("Error fetching heatmap data:", error);
     }
-
-    const lat = place.geometry.location.lat();
-    const lng = place.geometry.location.lng();
-    const newPosition = { lat, lng };
-    setPlaces([{ position: newPosition, name: place.name || "Unknown" }]);
   };
 
-  useEffect(() => {
-    const checkGoogle = setInterval(() => {
-      if (window.google && searchInputRef.current) {
-        clearInterval(checkGoogle);
-        const autocomplete = new window.google.maps.places.Autocomplete(
-          searchInputRef.current
-        );
-        autocomplete.setFields(["place_id", "geometry", "name"]);
-
-        autocomplete.addListener("place_changed", () => {
-          const place = autocomplete.getPlace();
-          handlePlaceChange(place);
-        });
-      }
-    }, 500);
-
-    return () => clearInterval(checkGoogle);
-  }, []);
-
   return (
-    <APIProvider apiKey="AIzaSyDbokWMJyoCcOY7NUJI_mttcPL1pABK51o" libraries={["places"]}>
-      <div style={{ height: "100vh", width: "100vw" }}>
-        {}
-        <Navbar searchInputRef={searchInputRef} />
+    <LoadScript googleMapsApiKey="AIzaSyDbokWMJyoCcOY7NUJI_mttcPL1pABK51o" libraries={["visualization"]}>
+      <GoogleMap
+        mapContainerStyle={mapContainerStyle}
+        center={defaultCenter}
+        zoom={13}
+        onClick={(event) => {
+          const newMarker = { lat: event.latLng.lat(), lng: event.latLng.lng() };
+          setMarkerPosition(newMarker);
+          fetchHeatmapData(newMarker.lat, newMarker.lng);
+        }}
+      >
+        {/* Heatmap Layer */}
+        {showHeatmap && heatmapData.length > 0 && (
+          <HeatmapLayer
+            data={heatmapData}
+            options={{
+              radius: 30,   // Adjust for visibility
+              opacity: 0.6, // Make heatmap visible
+            }}
+          />
+        )}
 
-        {/* Google Map Component */}
-        <Map
-          zoom={9}
-          center={places.length ? places[0].position : defaultPosition} 
-          style={{ width: "100%", height: "100%" }}
-          mapId="b31661b678ace0c5"
-        >
-          {places.map((place, index) => (
-            <AdvancedMarker
-              key={index}
-              position={place.position}
-              onClick={() => setOpen(true)}
-            >
-              <Pin background={"grey"} />
-            </AdvancedMarker>
-          ))}
+        {/* User-placed Marker */}
+        {markerPosition && <Marker position={markerPosition} />}
+      </GoogleMap>
 
-          {open && places[0] && (
-            <InfoWindow
-              position={places[0].position}
-              onCloseClick={() => setOpen(false)}
-            >
-              <div>
-                <h1>{places[0].name}</h1>
-                <p>Details about this marker.</p>
-              </div>
-            </InfoWindow>
-          )}
-        </Map>
-      </div>
-    </APIProvider>
+      {/* Debug Button to Show/Hide Heatmap */}
+      <button
+        onClick={() => setShowHeatmap(!showHeatmap)}
+        style={{
+          position: "absolute",
+          top: 10,
+          left: 10,
+          zIndex: 100,
+          padding: "8px 12px",
+          background: "white",
+          border: "1px solid black",
+          cursor: "pointer",
+        }}
+      >
+        {showHeatmap ? "Hide Heatmap" : "Show Heatmap"}
+      </button>
+    </LoadScript>
   );
 }
