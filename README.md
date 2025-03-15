@@ -66,8 +66,8 @@ npm run dev
 cd .\src\api
 ```
 
-3. Run the flask server
+3. Run the quart server
 
 ```sh
-flask run
+uvicorn api:app
 ```
