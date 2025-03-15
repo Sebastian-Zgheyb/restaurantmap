@@ -48,6 +48,10 @@ To re-enter the virtual environment, run the `Python: Select Interpreter` comman
 npm install
 ```
 
+```sh
+npm install @react-google-maps/api
+```
+
 2. Run the development server
 
 ```sh
