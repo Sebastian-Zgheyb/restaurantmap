@@ -15,7 +15,7 @@ const MapLegend = () => {
           color:"black",
         }}
       >
-        <h4 style={{ margin: "0 0 8px 0", fontWeight: "bold" }}>Legend</h4>
+        <h4 style={{ margin: "0 0 8px 0", fontWeight: "bold", textAlign:"center" }}>Legend</h4>
         <div style={{ display: "flex", alignItems: "center" }}>
           <div style={{ width: "20px", height: "20px", backgroundColor: "green", marginRight: "8px", borderRadius: "50%" }}></div>
           Excellent Rated Restaurants
