@@ -2,7 +2,7 @@ import { useState } from "react";
 import { GoogleMap, LoadScript, HeatmapLayer, Marker } from "@react-google-maps/api";
 
 const mapContainerStyle = { width: "100vw", height: "100vh" };
-const defaultCenter = { lat: 53.551086, lng: 9.993682 };
+const defaultCenter = { lat: -34.9285, lng: 138.6007 };
 
 export default function MapComponent() {
   const [showHeatmap, setShowHeatmap] = useState(false);
@@ -24,10 +24,10 @@ export default function MapComponent() {
         {showHeatmap && (
           <HeatmapLayer
             data={[
-              new google.maps.LatLng(53.5505, 9.9937),
-              new google.maps.LatLng(53.5510, 9.9940),
-              new google.maps.LatLng(53.5520, 9.9950),
-              new google.maps.LatLng(53.5530, 9.9960),
+              new google.maps.LatLng(34.9285, 38.6007),
+              new google.maps.LatLng(34.2, 38.32007),
+              new google.maps.LatLng(34.9285, 38.6007),
+              new google.maps.LatLng(34.9285, 38.6007),
             ]}
           />
         )}
