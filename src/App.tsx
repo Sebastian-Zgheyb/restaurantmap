@@ -1,10 +1,10 @@
 
 import Map from "./components/Map";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div>
-      <h1>hrhjrw</h1>
       <Map />
     </div>
   );
