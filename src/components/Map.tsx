@@ -1,68 +1,60 @@
 import { useState } from "react";
-import {
-  APIProvider,
-  Map,
-  AdvancedMarker,
-  Pin,
-  InfoWindow,
-} from "@vis.gl/react-google-maps";
+import { GoogleMap, LoadScript, HeatmapLayer, Marker } from "@react-google-maps/api";
 
-const defaultPosition = { lat: 53.551086, lng: 9.993682 };
+const mapContainerStyle = { width: "100vw", height: "100vh" };
+const defaultCenter = { lat: 53.551086, lng: 9.993682 };
 
-export default function App() {
-  const [open, setOpen] = useState(false);
-  // State handling 
+export default function MapComponent() {
+  const [showHeatmap, setShowHeatmap] = useState(false);
   const [markerPosition, setMarkerPosition] = useState<{ lat: number; lng: number } | null>(null);
 
-
-
   return (
-    <APIProvider apiKey="AIzaSyDbokWMJyoCcOY7NUJI_mttcPL1pABK51o" libraries={["places"]}>
-      <div style={{ height: "100vh", width: "100vw" }}>
-        {/* Google Map Component */}
-        <Map
-          zoom={9}
-          center={defaultPosition}
-          style={{ width: "100%", height: "100%" }}
-          mapId="b31661b678ace0c5"
+    <LoadScript googleMapsApiKey="AIzaSyDbokWMJyoCcOY7NUJI_mttcPL1pABK51o" libraries={["visualization"]}>
+      <GoogleMap
+        mapContainerStyle={mapContainerStyle}
+        center={defaultCenter}
+        zoom={13}
+        onClick={(event) => {
+          if (event.latLng) {
+          setMarkerPosition({ lat: event.latLng.lat(), lng: event.latLng.lng() });
+          }
+        }}
+      >
+        {/* Heatmap Layer */}
+        {showHeatmap && (
+          <HeatmapLayer
+            data={[
+              new google.maps.LatLng(53.5505, 9.9937),
+              new google.maps.LatLng(53.5510, 9.9940),
+              new google.maps.LatLng(53.5520, 9.9950),
+              new google.maps.LatLng(53.5530, 9.9960),
+            ]}
+          />
+        )}
 
-          // Onclick Handler
-          onClick={(event) => {
-            if (event.detail.latLng) {
-              const { lat, lng } = event.detail.latLng;
-              setMarkerPosition({ lat, lng }); // Set single marker position, replacing old
-            }
-          }}
-          
-          
-        >
-          {}
-          <AdvancedMarker position={defaultPosition} onClick={() => setOpen(true)}>
-            <Pin background={"grey"} />
-          </AdvancedMarker>
+        {/* Default Marker
+        <Marker position={defaultCenter} /> */}
 
-          {open && (
-            <InfoWindow position={defaultPosition} onCloseClick={() => setOpen(false)}>
-             <div className="marker-card">
-                <h1 className="marker-title">Marker Location</h1>
-                <p className="marker-details">Radius, other random information about this location</p>
-                <button className="generate-map-btn">Generate Map</button>
-            </div>
+        {/* User-placed Marker */}
+        {markerPosition && <Marker position={markerPosition} />}
+      </GoogleMap>
 
-            </InfoWindow>
-
-            
-          )}
-
-          // Renders the markers
-          {markerPosition && (
-          <AdvancedMarker position={markerPosition}>
-              <Pin background="blue" />
-          </AdvancedMarker>
-)}
-
-        </Map>
-      </div>
-    </APIProvider>
+      {/* Toggle Heatmap Button */}
+      <button
+        onClick={() => setShowHeatmap(!showHeatmap)}
+        style={{
+          position: "absolute",
+          top: 10,
+          left: 10,
+          zIndex: 100,
+          padding: "8px 12px",
+          background: "white",
+          border: "1px solid black",
+          cursor: "pointer",
+        }}
+      >
+        {showHeatmap ? "Hide Heatmap" : "Show Heatmap"}
+      </button>
+    </LoadScript>
   );
 }
