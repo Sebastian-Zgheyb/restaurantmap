@@ -1,13 +1,16 @@
 import { useState, useEffect } from "react";
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Navbar from "./Components/Navbar";
+import 'bootstrap/dist/css/bootstrap.css';
+import "bootstrap/dist/js/bootstrap.bundle.min.js"
+import imagePath from './assets/logo.png'
 
 // Include lattitude and longitude within server's JSON file back to client
 // Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client
 // Include lattitude and longitude within server's JSON file back to client
 // Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client// Include lattitude and longitude within server's JSON file back to client
 function App() {
+  let items = ["Home", "Product", "Service"];
   const [count, setCount] = useState(0);
   const [currentTime, setCurrentTime] = useState("");
 
@@ -20,31 +23,10 @@ function App() {
       .catch((err) => console.error("Error fetching time:", err));
   }, []);
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          Count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-      <p>The current time is: {currentTime}</p>
-    </>
-  );
+  return(
+      <div><Navbar brandName="RestaurantMap" imageSrcPath={imagePath} navItems={items}></Navbar></div>
+  )
 }
+
 
 export default App
