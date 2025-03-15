@@ -8,6 +8,8 @@ from nltk.sentiment import SentimentIntensityAnalyzer
 from dotenv import load_dotenv
 import os
 
+import json
+
 from utils.google_places import GooglePlacesAPI
 from utils.geometry import Geometry
 
@@ -39,6 +41,25 @@ async def get_test_data():
     radius = data.get("radius")
     
     print(f"Received Latitude: {latitude}, Longitude: {longitude}, Radius: {radius}")
+    file_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'response_data.json')
+
+    
+    print(f"File Path: {file_path}")
+    
+    
+    try:
+        with open(file_path, 'r') as f:
+            response_data = json.load(f)
+        print(f"Loaded response data from file: {response_data}")
+    
+    except FileNotFoundError:
+        return jsonify({"error": "response_data.json file not found"}), 404
+    except json.JSONDecodeError as e:
+        return jsonify({"error": f"Error decoding JSON from response_data.json: {str(e)}"}), 400
+    except Exception as e:
+        return jsonify({"error": f"An unexpected error occurred: {str(e)}"}), 500
+    
+    return jsonify(response_data)
     
     response_data = {
         "message": "Valid request",
