@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@react-google-maps/api": "^2.20.6",
+    "@syncfusion/ej2-react-inputs": "^28.2.11",
     "@tailwindcss/vite": "^4.0.14",
     "@vis.gl/react-google-maps": "^1.5.2",
     "react": "^19.0.0",
