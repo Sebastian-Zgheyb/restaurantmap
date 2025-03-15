@@ -1,3 +1,5 @@
+
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -9,8 +11,8 @@
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
 }
+
 
 .navbar-left {
   flex: 0 0 auto;

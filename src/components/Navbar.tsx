@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-// Define the type for Navbar props
 interface NavbarProps {
   searchInputRef: React.RefObject<HTMLInputElement> | null;
   radius: number;

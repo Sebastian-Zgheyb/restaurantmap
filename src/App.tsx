@@ -1,5 +1,7 @@
 import MapComponent from "./components/Map";
 import Navbar from "./components/Navbar";
+import Navbar2 from "./components/Navbar2";
+
 import { useState } from "react";
 import MapLegend from "./components/MapLegend";
 
@@ -8,9 +10,12 @@ function App() {
 
   return (
     <div>
-      <Navbar searchInputRef={null} radius={radius} setRadius={setRadius} />
+      <Navbar2 searchInputRef={null} radius={radius} setRadius={setRadius} />
+
+      {/*
       <MapComponent radius={radius} />
-      <MapLegend></MapLegend>
+      <MapLegend/>
+      */}
     </div>
   );
 }
