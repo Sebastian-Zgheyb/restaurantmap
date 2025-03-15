@@ -1,12 +1,13 @@
 
 import Map from "./components/Map";
-import Navbar from "./components/Navbar";
+import RangeSlider from "./components/RangeSlider";
 
 function App() {
   return (
     <div>
-      <Map />
+        <Map />
     </div>
+    
   );
 }
 
