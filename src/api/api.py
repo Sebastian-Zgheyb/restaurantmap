@@ -41,7 +41,7 @@ async def get_test_data():
     radius = data.get("radius")
     
     print(f"Received Latitude: {latitude}, Longitude: {longitude}, Radius: {radius}")
-    file_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'response_data.json')
+    file_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'response_test_data.json')
 
     
     print(f"File Path: {file_path}")
@@ -111,7 +111,7 @@ async def get_data():
     
     print(f"Received Latitude: {latitude}, Longitude: {longitude}, Radius: {radius}")
     geo = Geometry(100)
-    google_places = GooglePlacesAPI(API_KEY, 20, 50)
+    google_places = GooglePlacesAPI(API_KEY, 20, 100)
     
     square_centers = geo.cover_circle_with_squares(circle_x=0, circle_y=0, radius=radius)
     coordinates = geo.meters_to_latlon(latitude, longitude, square_centers)
