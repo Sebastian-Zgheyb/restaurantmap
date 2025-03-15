@@ -160,7 +160,7 @@ async def get_data():
     
     print(f"Received Latitude: {latitude}, Longitude: {longitude}, Radius: {radius}")
     geo = Geometry(request_radius)  # Be very careful when making this value smaller
-    google_places = GooglePlacesAPI(API_KEY, 1)
+    google_places = GooglePlacesAPI(API_KEY, 1) # if you want a denser map use value in the range from  [1, 20] inclusive
     
     # Get the square centers around the circle (returns (x, y) Cartesian coordinates) where 1 unit is 1m
     square_centers = geo.cover_circle_with_squares(circle_x=0, circle_y=0, radius=radius)
@@ -171,13 +171,7 @@ async def get_data():
     places_data = await google_places.get_places_near_coordinates(coordinates)
     
     # Process normally if the request is valid
-    return jsonify({
-        "message": "Valid request",
-        "latitude": latitude,
-        "longitude": longitude,
-        "radius": radius,
-        "places_data": places_data
-    })
+    return jsonify({"data": places_data})
 
 @app.route("/get_reviews", methods=["POST"])
 def get_reviews():
