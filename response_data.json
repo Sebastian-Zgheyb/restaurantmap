@@ -69,9 +69,9 @@
             },
             "rating": 3.9,
             "types": [
+                "event_venue",
                 "pub",
                 "bar",
-                "event_venue",
                 "restaurant",
                 "point_of_interest",
                 "food",
@@ -89,8 +89,8 @@
             "rating": 4.5,
             "types": [
                 "community_center",
-                "bar",
                 "event_venue",
+                "bar",
                 "point_of_interest",
                 "establishment"
             ],
@@ -140,8 +140,8 @@
             },
             "rating": 4.9,
             "types": [
-                "vietnamese_restaurant",
                 "asian_restaurant",
+                "vietnamese_restaurant",
                 "restaurant",
                 "point_of_interest",
                 "food",
@@ -574,14 +574,14 @@
             "rating": 4.4,
             "types": [
                 "cafe",
-                "coffee_shop",
                 "brunch_restaurant",
+                "coffee_shop",
                 "breakfast_restaurant",
-                "restaurant",
-                "point_of_interest",
                 "food_store",
                 "store",
+                "restaurant",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 244
@@ -648,10 +648,10 @@
             "types": [
                 "coffee_shop",
                 "cafe",
-                "point_of_interest",
                 "food_store",
                 "store",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": null
@@ -1119,8 +1119,8 @@
                 "asian_restaurant",
                 "meal_takeaway",
                 "restaurant",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
             ],
             "userRatingCount": 80
@@ -1137,8 +1137,8 @@
                 "cafe",
                 "wine_bar",
                 "bar",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
             ],
             "userRatingCount": 32
@@ -1537,6 +1537,7 @@
                 "food_store",
                 "store",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 47
@@ -1558,6 +1559,21 @@
             "userRatingCount": 47
         },
         {
+            "id": "ChIJpzVLVqyvEmsR36VKfYFd0iQ",
+            "latitude": -33.88033,
+            "longitude": 151.21078160000002,
+            "name": "Oromo Cafe",
+            "priceLevel": null,
+            "priceRange": null,
+            "rating": null,
+            "types": [
+                "cafeteria",
+                "point_of_interest",
+                "establishment"
+            ],
+            "userRatingCount": null
+        },
+        {
             "id": "ChIJhZn8INevEmsRf8uU48OObm0",
             "latitude": -33.8793612,
             "longitude": 151.21105649999998,
@@ -1576,10 +1592,10 @@
             "rating": 4.1,
             "types": [
                 "bakery",
-                "point_of_interest",
                 "food_store",
-                "store",
+                "point_of_interest",
                 "food",
+                "store",
                 "establishment"
             ],
             "userRatingCount": 871
@@ -1639,8 +1655,8 @@
             "rating": 4.6,
             "types": [
                 "movie_theater",
-                "event_venue",
                 "bar",
+                "event_venue",
                 "point_of_interest",
                 "establishment"
             ],
@@ -1683,16 +1699,16 @@
             "rating": 4.2,
             "types": [
                 "restaurant",
+                "brunch_restaurant",
                 "hamburger_restaurant",
+                "bar",
                 "meal_takeaway",
                 "american_restaurant",
-                "brunch_restaurant",
                 "event_venue",
                 "shoe_store",
-                "bar",
                 "point_of_interest",
-                "store",
                 "food",
+                "store",
                 "establishment"
             ],
             "userRatingCount": 1255
@@ -1716,11 +1732,11 @@
             "rating": 4.3,
             "types": [
                 "pub",
-                "historical_landmark",
                 "cultural_landmark",
-                "event_venue",
-                "historical_place",
+                "historical_landmark",
                 "bar",
+                "historical_place",
+                "event_venue",
                 "point_of_interest",
                 "establishment"
             ],
@@ -1764,8 +1780,8 @@
                 "pizza_restaurant",
                 "meal_takeaway",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 839
@@ -1780,8 +1796,8 @@
             "rating": 5,
             "types": [
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 172
@@ -1833,7 +1849,6 @@
                 "food_store",
                 "point_of_interest",
                 "food",
-                "store",
                 "establishment"
             ],
             "userRatingCount": 788
@@ -1859,8 +1874,8 @@
                 "cafe",
                 "breakfast_restaurant",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 812
@@ -1888,7 +1903,6 @@
                 "food_store",
                 "point_of_interest",
                 "food",
-                "store",
                 "establishment"
             ],
             "userRatingCount": 118
@@ -1913,8 +1927,8 @@
             "types": [
                 "restaurant",
                 "vegetarian_restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 95
@@ -2118,6 +2132,26 @@
             "userRatingCount": null
         },
         {
+            "id": "ChIJpe3x5R6uEmsR4bqxeAm06R4",
+            "latitude": -33.8855067,
+            "longitude": 151.21379,
+            "name": "Gelato Messina Surry Hills",
+            "priceLevel": "PRICE_LEVEL_MODERATE",
+            "priceRange": null,
+            "rating": 4.6,
+            "types": [
+                "ice_cream_shop",
+                "dessert_shop",
+                "confectionery",
+                "food_store",
+                "store",
+                "food",
+                "point_of_interest",
+                "establishment"
+            ],
+            "userRatingCount": 1588
+        },
+        {
             "id": "ChIJ75-1BwCvEmsRdwPXo6alBO4",
             "latitude": -33.8853965,
             "longitude": 151.2138641,
@@ -2127,8 +2161,8 @@
             "rating": 4.6,
             "types": [
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 202
@@ -2146,8 +2180,8 @@
                 "italian_restaurant",
                 "bar",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 758
@@ -2172,8 +2206,8 @@
             "types": [
                 "mexican_restaurant",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 374
@@ -2198,8 +2232,8 @@
             "types": [
                 "thai_restaurant",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 201
@@ -2226,8 +2260,8 @@
                 "japanese_restaurant",
                 "event_venue",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 520
@@ -2252,8 +2286,8 @@
             "types": [
                 "barbecue_restaurant",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 38
@@ -2288,8 +2322,8 @@
                 "meal_takeaway",
                 "asian_restaurant",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 183
@@ -2305,8 +2339,8 @@
             "types": [
                 "restaurant",
                 "bar",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 597
@@ -2391,6 +2425,26 @@
             "userRatingCount": 3003
         },
         {
+            "id": "ChIJCT4btCGvEmsRuNx2kyeSDTs",
+            "latitude": -33.8845756,
+            "longitude": 151.2134233,
+            "name": "Gelato",
+            "priceLevel": null,
+            "priceRange": null,
+            "rating": 2.6,
+            "types": [
+                "ice_cream_shop",
+                "dessert_shop",
+                "confectionery",
+                "food_store",
+                "point_of_interest",
+                "food",
+                "store",
+                "establishment"
+            ],
+            "userRatingCount": 22
+        },
+        {
             "id": "ChIJrxOoGhmuEmsR6IidElIyH6s",
             "latitude": -33.8831172,
             "longitude": 151.2139875,
@@ -2441,12 +2495,12 @@
             "rating": 4.2,
             "types": [
                 "italian_restaurant",
-                "cafe",
                 "restaurant",
-                "point_of_interest",
                 "food_store",
-                "store",
+                "cafe",
+                "point_of_interest",
                 "food",
+                "store",
                 "establishment"
             ],
             "userRatingCount": 885
@@ -2470,14 +2524,14 @@
             "rating": 4.9,
             "types": [
                 "deli",
-                "brunch_restaurant",
                 "cafe",
                 "grocery_store",
+                "brunch_restaurant",
+                "restaurant",
+                "point_of_interest",
                 "food_store",
                 "store",
-                "restaurant",
                 "food",
-                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 195
@@ -2501,8 +2555,8 @@
             "rating": 4.8,
             "types": [
                 "cafe",
-                "food",
                 "point_of_interest",
+                "food",
                 "establishment"
             ],
             "userRatingCount": 35
@@ -2652,10 +2706,10 @@
             "rating": 4.6,
             "types": [
                 "cafe",
-                "food_store",
                 "point_of_interest",
-                "food",
+                "food_store",
                 "store",
+                "food",
                 "establishment"
             ],
             "userRatingCount": 611
@@ -2980,14 +3034,14 @@
                 "cafe",
                 "sandwich_shop",
                 "catering_service",
-                "breakfast_restaurant",
                 "food_delivery",
+                "breakfast_restaurant",
                 "japanese_restaurant",
                 "restaurant",
-                "food_store",
                 "point_of_interest",
-                "food",
+                "food_store",
                 "store",
+                "food",
                 "establishment"
             ],
             "userRatingCount": 762
@@ -3163,13 +3217,13 @@
             "types": [
                 "italian_restaurant",
                 "wine_bar",
-                "bar",
                 "event_venue",
+                "bar",
                 "restaurant",
-                "food_store",
                 "point_of_interest",
-                "food",
+                "food_store",
                 "store",
+                "food",
                 "establishment"
             ],
             "userRatingCount": 1086
@@ -3524,9 +3578,9 @@
             "types": [
                 "japanese_restaurant",
                 "restaurant",
-                "cafe",
                 "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 713
@@ -3569,8 +3623,9 @@
                 "food_store",
                 "cafe",
                 "point_of_interest",
-                "food",
+                "food_store",
                 "store",
+                "food",
                 "establishment"
             ],
             "userRatingCount": 378
@@ -3610,10 +3665,10 @@
             "types": [
                 "cafe",
                 "home_goods_store",
-                "point_of_interest",
                 "food_store",
-                "store",
+                "point_of_interest",
                 "food",
+                "store",
                 "establishment"
             ],
             "userRatingCount": 54
@@ -3629,8 +3684,8 @@
             "types": [
                 "japanese_restaurant",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 320
@@ -3644,15 +3699,15 @@
             "priceRange": null,
             "rating": 4.4,
             "types": [
-                "coffee_shop",
                 "bicycle_store",
-                "cafe",
-                "clothing_store",
                 "sporting_goods_store",
-                "point_of_interest",
+                "clothing_store",
+                "coffee_shop",
                 "food_store",
-                "store",
+                "cafe",
+                "point_of_interest",
                 "food",
+                "store",
                 "establishment"
             ],
             "userRatingCount": 162
@@ -3678,9 +3733,10 @@
                 "point_of_interest",
                 "bakery",
                 "food_store",
-                "store",
+                "point_of_interest",
                 "food",
                 "wholesaler",
+                "store",
                 "establishment"
             ],
             "userRatingCount": 100
@@ -3696,8 +3752,8 @@
             "types": [
                 "french_restaurant",
                 "restaurant",
-                "point_of_interest",
                 "food",
+                "point_of_interest",
                 "establishment"
             ],
             "userRatingCount": 254
@@ -3894,10 +3950,9 @@
             "types": [
                 "bakery",
                 "cafe",
-                "food_store",
-                "store",
-                "food",
                 "point_of_interest",
+                "food",
+                "store",
                 "establishment"
             ],
             "userRatingCount": 379
@@ -4138,5 +4193,5 @@
             "userRatingCount": null
         }
     ],
-    "totalUniquePlaces": 176
+    "totalUniquePlaces": 179
 }
