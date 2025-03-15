@@ -1,12 +1,37 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { GoogleMap, LoadScript, HeatmapLayer, Marker } from "@react-google-maps/api";
 
 const mapContainerStyle = { width: "100vw", height: "100vh" };
 const defaultCenter = { lat: -34.9285, lng: 138.6007 };
 
-export default function MapComponent() {
+interface MapComponentProps {
+  radius: number;
+}
+
+export default function MapComponent({ radius }: MapComponentProps) {
   const [showHeatmap, setShowHeatmap] = useState(false);
   const [markerPosition, setMarkerPosition] = useState<{ lat: number; lng: number } | null>(null);
+  const mapRef = useRef<google.maps.Map | null>(null); // Reference to the Google Map instance
+
+  
+  useEffect(() => {
+    if (mapRef.current && markerPosition) {
+      const circle = new google.maps.Circle({
+        center: markerPosition,
+        radius: radius, 
+        strokeColor: "#FF0000",
+        strokeOpacity: 0.8,
+        strokeWeight: 2,
+        fillOpacity: 0.0,
+      });
+
+      circle.setMap(mapRef.current); 
+
+      return () => {
+        circle.setMap(null);
+      };
+    }
+  }, [radius, markerPosition]);
 
   return (
     <LoadScript googleMapsApiKey="AIzaSyDbokWMJyoCcOY7NUJI_mttcPL1pABK51o" libraries={["visualization"]}>
@@ -14,9 +39,13 @@ export default function MapComponent() {
         mapContainerStyle={mapContainerStyle}
         center={defaultCenter}
         zoom={13}
+        onLoad={(map) => {
+          mapRef.current = map; 
+        }}
         onClick={(event) => {
           if (event.latLng) {
-          setMarkerPosition({ lat: event.latLng.lat(), lng: event.latLng.lng() });
+            const latLng = { lat: event.latLng.lat(), lng: event.latLng.lng() };
+            setMarkerPosition(latLng); 
           }
         }}
       >
@@ -24,16 +53,13 @@ export default function MapComponent() {
         {showHeatmap && (
           <HeatmapLayer
             data={[
-              new google.maps.LatLng(34.9285, 38.6007),
-              new google.maps.LatLng(34.2, 38.32007),
-              new google.maps.LatLng(34.9285, 38.6007),
-              new google.maps.LatLng(34.9285, 38.6007),
+              new google.maps.LatLng(34.9285, 138.6007),
+              new google.maps.LatLng(34.2, 138.32007),
+              new google.maps.LatLng(34.9285, 138.6007),
+              new google.maps.LatLng(34.9285, 138.6007),
             ]}
           />
         )}
-
-        {/* Default Marker
-        <Marker position={defaultCenter} /> */}
 
         {/* User-placed Marker */}
         {markerPosition && <Marker position={markerPosition} />}
