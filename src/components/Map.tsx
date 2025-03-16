@@ -49,7 +49,7 @@ export default function MapComponent() {
     try {
       console.log("Fetching heatmap data...");
 
-      const response = await fetch("http://127.0.0.1:8000/get_test_data", {
+      const response = await fetch("http://127.0.0.1:8000/get_data", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ latitude: lat, longitude: lng, radius }),
