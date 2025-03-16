@@ -27,12 +27,13 @@ interface PlaceData {
   userRatingCount?: number;
 }
 
-export default function MapComponent({ radius, setRadius }: MapComponentProps) {
+export default function MapComponent() {
   const [showHeatmap, setShowHeatmap] = useState(false);
   const [markerPosition, setMarkerPosition] = useState<{ lat: number; lng: number } | null>(null);
   const [heatmapData, setHeatmapData] = useState<google.maps.LatLng[]>([]);
   const cacheRef = useRef(new Map());
   const [activeBtn, setActiveBtn] = useState<string | null>(null);
+  const [radius, setRadius] = useState(1500);
 
   const posRef = useRef<{ lat: number; lng: number } | null>(null);
 
@@ -142,7 +143,6 @@ export default function MapComponent({ radius, setRadius }: MapComponentProps) {
           style={{
             top: 10,
             left: 10,
-            padding: "8px 12px",
             margin: "12px 16px",
             background: "black",
             border: "1px solid black",
