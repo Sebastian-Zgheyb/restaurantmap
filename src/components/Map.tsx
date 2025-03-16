@@ -140,6 +140,7 @@ export default function MapComponent({ radius, setRadius }: MapComponentProps) {
             top: 10,
             left: 10,
             padding: "8px 12px",
+            margin: "12px 16px",
             background: "black",
             border: "1px solid black",
             color: "white",
