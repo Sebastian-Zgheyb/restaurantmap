@@ -1,17 +1,16 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, PureComponent } from "react";
 import { GoogleMap, LoadScript, HeatmapLayer, Marker } from "@react-google-maps/api";
-
+import './styles/Map.css';
 const mapContainerStyle = {
-  width: '90vw',
-  height: '90vh',
-  marginTop: '5vh',
+  width: '100%',
+  height: '100%',
   marginRight: '5vw',
   marginBottom: '5vh',
   marginLeft: '5vw',
-  display: 'block',
   margin: 'auto',
+  display: 'block',
 };
-const defaultCenter = { lat:  -33.88363285605243, lng: 151.21301531321515 };
+const defaultCenter = { lat: -33.88363285605243, lng: 151.21301531321515 };
 
 interface MapComponentProps {
   radius: number;
@@ -29,6 +28,9 @@ export default function MapComponent({ radius }: MapComponentProps) {
   const [markerPosition, setMarkerPosition] = useState<{ lat: number; lng: number } | null>(null);
   const [heatmapData, setHeatmapData] = useState<google.maps.LatLng[]>([]);
   const cacheRef = useRef(new Map());
+  const [activeBtn, setActiveBtn] = useState<string | null>(null);
+  var Pos;
+  
   // Function to fetch heatmap data
   const fetchHeatmapData = async (lat: number, lng: number, radius: number = 1500, option: number = 0) => {
     const cacheKey = `${lat},${lng},${radius},${option}`;
@@ -40,21 +42,21 @@ export default function MapComponent({ radius }: MapComponentProps) {
     }
     try {
       console.log("Fetching heatmap data...");
-  
+
       const response = await fetch("http://127.0.0.1:8000/get_test_data", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ latitude: lat, longitude: lng, radius }),
       });
-  
+
       const data = await response.json();
       console.log("Fetched data:", data);
-  
+
       if (!data || !data.places || !Array.isArray(data.places)) {
         console.error("Unexpected data format:", data);
         return;
       }
-      
+
       // If option is 1, use price level
       if (option == 1) {
         // Define the mapping from price level strings to numeric values
@@ -76,14 +78,14 @@ export default function MapComponent({ radius }: MapComponentProps) {
         const priceLevels = data.places.map((place: { priceLevel?: string | null }) =>
           mapPriceLevelToNumeric(place.priceLevel ?? null) // Ensure priceLevel is either string or null
         );
-          // Calculate the mean of the priceLevels
+        // Calculate the mean of the priceLevels
         const mean = priceLevels.reduce((acc: number, val: number) => acc + val, 0) / priceLevels.length;
 
         // Calculate the standard deviation of the priceLevels
         const variance = priceLevels.reduce((acc: number, val: number) => acc + Math.pow(val - mean, 2), 0) / priceLevels.length;
         const standardDeviation = Math.sqrt(variance);
 
-          // Print the mean and standard deviation
+        // Print the mean and standard deviation
         console.log('Mean of price levels:', mean);
         console.log('Standard deviation of price levels:', standardDeviation);
 
@@ -97,7 +99,7 @@ export default function MapComponent({ radius }: MapComponentProps) {
         // Now create the heatmap data using the valid places and their mapped price levels
         const heatmapPoints = validPlaces.map((place: PlaceData, index: number) => {
           const weight = priceLevels[index] ?? 0; // Use the mapped price level as weight, fallback to 0 if undefined
-          
+
           if (weight === 0) return null;
 
           return {
@@ -107,7 +109,7 @@ export default function MapComponent({ radius }: MapComponentProps) {
         }).filter(Boolean);
 
         console.log("Transformed heatmap data with weights:", heatmapPoints);
-        cacheRef.current.set(cacheKey, heatmapPoints); 
+        cacheRef.current.set(cacheKey, heatmapPoints);
         setHeatmapData(heatmapPoints);
         setShowHeatmap(true);
         return;
@@ -129,7 +131,7 @@ export default function MapComponent({ radius }: MapComponentProps) {
       const maxStandardized = Math.max(...standardizedRatings);
 
       console.log(`Min Standardized: ${minStandardized}, Max Standardized: ${maxStandardized}, before clipping`);
-      
+
       const clippedRatings = standardizedRatings.map((rating: number) => {
         const maxStdDev = 1;
         if (rating > maxStdDev) return maxStdDev;
@@ -141,10 +143,10 @@ export default function MapComponent({ radius }: MapComponentProps) {
       const maxClipped = Math.max(...clippedRatings);
 
       console.log(`Min Clipped: ${minClipped}, Max Clipped:: ${maxClipped}, after clipping`);
-      
+
 
       const normalizedRatings = clippedRatings.map((rating: number) =>
-          ((rating - minClipped) / (maxClipped - minClipped)) * 10
+        ((rating - minClipped) / (maxClipped - minClipped)) * 10
       );
 
       // Log the normalized ratings
@@ -168,40 +170,39 @@ export default function MapComponent({ radius }: MapComponentProps) {
       // Step 3: Transform data with raw weights for heatmap
       const heatmapPoints = data.places.map((place: PlaceData, index: number) => {
         const weight = rawWeights[index] ?? mean; // Default to mean if undefined
-        
+
         return {
           location: new google.maps.LatLng(place.latitude, place.longitude),
           weight: weight, // Use the raw weight without normalization
         };
       });
 
-        
+
       console.log("Transformed heatmap data with weights:", heatmapPoints);
-  
+
       setHeatmapData(heatmapPoints);
       setShowHeatmap(true);
     } catch (error) {
       console.error("Error fetching heatmap data:", error);
     }
   };
-  
-  
-  
+
+
   const mapRef = useRef<google.maps.Map | null>(null); // Reference to the Google Map instance
 
-  
+
   useEffect(() => {
     if (mapRef.current && markerPosition) {
       const circle = new google.maps.Circle({
         center: markerPosition,
-        radius: radius, 
+        radius: radius,
         strokeColor: "#FF0000",
         strokeOpacity: 0.8,
         strokeWeight: 2,
         fillOpacity: 0.0,
       });
 
-      circle.setMap(mapRef.current); 
+      circle.setMap(mapRef.current);
 
       return () => {
         circle.setMap(null);
@@ -210,70 +211,83 @@ export default function MapComponent({ radius }: MapComponentProps) {
   }, [radius, markerPosition]);
 
   return (
-    <LoadScript googleMapsApiKey="AIzaSyDbokWMJyoCcOY7NUJI_mttcPL1pABK51o" libraries={["visualization"]}>
-      <GoogleMap
-        mapContainerStyle={mapContainerStyle}
-        center={defaultCenter}
-        zoom={13}
-        onLoad={(map) => {
-          mapRef.current = map;
-          google.maps.event.addListener(map, "zoom_changed", () => {
-            // Get the current zoom level
-            const zoom = map.getZoom();
-          });
-        }}
-        onClick={(event) => {
-          const newMarker = { lat: event.latLng.lat(), lng: event.latLng.lng() };
-          setMarkerPosition(newMarker);
-          fetchHeatmapData(newMarker.lat, newMarker.lng);
-        }}
-      >
-        <HeatmapLayer
-        data={showHeatmap ? heatmapData : []} // Empty data hides the heatmap
-        options={{
-          radius: 50,
-          opacity: 0.3,
-          dissipating: true,
-          gradient: [
-            'rgba(0, 255, 255, 0)',
-            'rgba(0, 255, 255, 1)',
-            'rgba(0, 255, 0, 1)',
-            'rgba(255, 255, 0, 1)',
-            'rgba(255, 0, 0, 1)',
-            'rgba(255, 0, 0, 1)',
-          ],
-        }}
-      />
+    <div className="container">
+      <div className="NavBar">
+        <button
+          onClick={() => {
+            setShowHeatmap((prev) => !prev); // Toggle the heatmap visibility
+          }}
+          style={{
+            top: 10,
+            left: 10,
+            padding: "8px 12px",
+            background: "black",
+            border: "1px solid black",
+            color: "white",
+            cursor: "pointer",
+          }}
+        >
+          {showHeatmap ? "Hide Heatmap" : "Show Heatmap"}
+        </button>
+        <button
+          className={`action-btn2 ${activeBtn === "generate" ? "active2" : ""}`}
+          onClick={() => {
+            console.log(Pos);
+            console.log(" HERE!");
+          }}
+        >
+          Generate
+        </button>
+      </div>
+      <LoadScript googleMapsApiKey="AIzaSyDbokWMJyoCcOY7NUJI_mttcPL1pABK51o" libraries={["visualization"]}>
+        <GoogleMap
+          mapContainerStyle={mapContainerStyle}
+          center={defaultCenter}
+          zoom={13}
+          onLoad={(map) => {
+            mapRef.current = map;
+            google.maps.event.addListener(map, "zoom_changed", () => {
+              const zoom = map.getZoom();
+            });
+          }}
+          onClick={(event) => {
+            const newMarker = { lat: event.latLng.lat(), lng: event.latLng.lng() };
+            Pos = newMarker;
+            console.log(Pos);
 
-        {/* User-placed Marker */}
-        {markerPosition && <Marker position={markerPosition} />}
-      </GoogleMap>
+            setMarkerPosition(newMarker);
+            fetchHeatmapData(newMarker.lat, newMarker.lng);
+          }}
+        >
+          <HeatmapLayer
+            data={showHeatmap ? heatmapData : []} // Empty data hides the heatmap
+            options={{
+              radius: 50,
+              opacity: 0.3,
+              dissipating: true,
+              gradient: [
+                'rgba(0, 255, 255, 0)',
+                'rgba(0, 255, 255, 1)',
+                'rgba(0, 255, 0, 1)',
+                'rgba(255, 255, 0, 1)',
+                'rgba(255, 0, 0, 1)',
+                'rgba(255, 0, 0, 1)',
+              ],
+            }}
+          />
 
-      {/* Debug Button to Show/Hide Heatmap */}
-      <button
-        onClick={() => {
-          setShowHeatmap((prev) => !prev); // Toggle the heatmap visibility
-        }}
-        style={{
-          position: "absolute",
-          top: 10,
-          left: 10,
-          zIndex: 100,
-          padding: "8px 12px",
-          background: "black",
-          border: "1px solid black",
-          color: "white",
-          cursor: "pointer",
-        }}
-      >
-        {showHeatmap ? "Hide Heatmap" : "Show Heatmap"}
-      </button>
+          {/* User-placed Marker */}
+          {markerPosition && <Marker position={markerPosition} />}
+        </GoogleMap>
 
-      {/* Display the heatmap data
+        {/* Debug Button to Show/Hide Heatmap */}
+
+        {/* Display the heatmap data
       <div>
         <h3>Heatmap Data</h3>
         <pre>{JSON.stringify(heatmapData, null, 2)}</pre>
       </div> */}
-    </LoadScript>
+      </LoadScript>
+    </div>
   );
 }

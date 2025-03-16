@@ -10,12 +10,8 @@ function App() {
 
   return (
     <div>
-      <Navbar2 searchInputRef={null} radius={radius} setRadius={setRadius} />
-
-      
-      <MapComponent radius={radius} />
+      <MapComponent radius={radius}/>
       <MapLegend/>
-     
     </div>
   );
 }
