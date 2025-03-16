@@ -117,18 +117,25 @@ export default function MapComponent() {
       const circle = new google.maps.Circle({
         center: markerPosition,
         radius: radius,
-        strokeColor: "#FF0000",
-        strokeOpacity: 0.8,
-        strokeWeight: 2,
-        fillOpacity: 0.0,
+        strokeColor: "black",  // Light grey stroke color (hex color)
+        strokeOpacity: 0.6,       // Light opacity for the stroke (not too harsh)
+        strokeWeight: 1,          // Thin stroke (1px)
+        fillColor: "#BEBEBE",     // Same light grey fill color
+        fillOpacity: 0.2,         // Light fill opacity (slightly visible)
+        clickable: false,         // Make the circle non-clickable
+        editable: false,          // Disable editing
+        draggable: false,         // Disable dragging
+        zIndex: 1,                // Set z-index for layering if needed
       });
-
+    
       circle.setMap(mapRef.current);
-
+    
       return () => {
-        circle.setMap(null);
+        circle.setMap(null); // Cleanup when the component unmounts or the circle is no longer needed
       };
     }
+    
+    
   }, [radius, markerPosition]);
 
   return (
@@ -146,6 +153,7 @@ export default function MapComponent() {
             margin: "12px 16px",
             background: "black",
             border: "1px solid black",
+            borderRadius: "0px",
             color: "white",
             cursor: "pointer",
           }}
@@ -168,7 +176,7 @@ export default function MapComponent() {
         </button>
         </div>
         <div className="radius-section2">
-          <label htmlFor="radius-slider2" className="radius-label2">Radius:</label>
+          <label htmlFor="radius-slider2" className="radius-label2">Radius: </label>
           <span className="radius-value2">{radius} metres</span>
           <input
             id="radius-slider2"
