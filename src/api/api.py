@@ -50,7 +50,7 @@ async def get_test_data():
     try:
         with open(file_path, 'r') as f:
             response_data = json.load(f)
-        print(f"Loaded response data from file: {response_data}")
+        #print(f"Loaded response data from file: {response_data}")
     
     except FileNotFoundError:
         return jsonify({"error": "response_data.json file not found"}), 404
