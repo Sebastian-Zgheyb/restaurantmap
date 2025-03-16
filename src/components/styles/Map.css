@@ -1,10 +1,21 @@
-.container{
+.container {
     width: 100vw;
     height: 100vh;
-    flex-direction: row;
-}
-
-.NavBar{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .NavBar {
     background-color: #555555;
     height: 100px;
-}
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0 20px;
+  }
+  
+  .navbar-logo {
+    width: 80px; 
+    height: auto;
+  }
+  

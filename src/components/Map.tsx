@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { GoogleMap, LoadScript, HeatmapLayer, Marker } from "@react-google-maps/api";
 import './styles/Map.css';
 
+const logo = '/HOTSPOTS_1.png';
 const mapContainerStyle = {
   width: '100%',
   height: '100%',
@@ -132,6 +133,7 @@ export default function MapComponent({ radius, setRadius }: MapComponentProps) {
   return (
     <div className="container">
       <div className="NavBar">
+        <div className="NavBar-left">
         <button
           onClick={() => {
             setShowHeatmap((prev) => !prev); // Toggle the heatmap visibility
@@ -163,6 +165,7 @@ export default function MapComponent({ radius, setRadius }: MapComponentProps) {
         >
           Generate
         </button>
+        </div>
         <div className="radius-section2">
           <label htmlFor="radius-slider2" className="radius-label2">Radius:</label>
           <span className="radius-value2">{radius} metres</span>
@@ -176,6 +179,7 @@ export default function MapComponent({ radius, setRadius }: MapComponentProps) {
             className="radius-slider2"
           />
         </div>
+        <img src={logo} alt="Logo" className="navbar-logo" />
       </div>
       <LoadScript googleMapsApiKey="AIzaSyDbokWMJyoCcOY7NUJI_mttcPL1pABK51o" libraries={["visualization"]}>
         <GoogleMap

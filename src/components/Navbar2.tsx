@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './Navbar2.css'; // Link to the new CSS file
-
+const logo = '/HOTSPOTS_1.png';
 interface NavbarProps {
   searchInputRef: React.RefObject<HTMLInputElement> | null;
   radius: number;
