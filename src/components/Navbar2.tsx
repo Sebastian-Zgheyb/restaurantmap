@@ -33,22 +33,10 @@ const Navbar2: React.FC<NavbarProps> = ({ searchInputRef, radius, setRadius }) =
         <div className="navbar-right2">
           <div className="nav-actions2">
             <button
-              className={`action-btn2 ${activeBtn === "rating" ? "active2" : ""}`}
-              onClick={() => handleButtonClick("rating")}
+              className={`action-btn2 ${activeBtn === "generate" ? "active2" : ""}`}
+              onClick={() => handleButtonClick("generate")}
             >
-              Rating
-            </button>
-            <button
-              className={`action-btn2 ${activeBtn === "review" ? "active2" : ""}`}
-              onClick={() => handleButtonClick("review")}
-            >
-              Review
-            </button>
-            <button
-              className={`action-btn2 ${activeBtn === "price" ? "active2" : ""}`}
-              onClick={() => handleButtonClick("price")}
-            >
-              Price
+              Generate
             </button>
             <select className="action-dropdown2">
               <option value="">Restaurant</option>
