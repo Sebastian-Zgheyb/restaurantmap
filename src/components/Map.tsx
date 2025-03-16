@@ -28,9 +28,16 @@ export default function MapComponent({ radius }: MapComponentProps) {
   const [showHeatmap, setShowHeatmap] = useState(false);
   const [markerPosition, setMarkerPosition] = useState<{ lat: number; lng: number } | null>(null);
   const [heatmapData, setHeatmapData] = useState<google.maps.LatLng[]>([]);
-
+  const cacheRef = useRef(new Map());
   // Function to fetch heatmap data
   const fetchHeatmapData = async (lat: number, lng: number, radius: number = 1500, option: number = 0) => {
+    const cacheKey = `${lat},${lng},${radius},${option}`;
+    if (cacheRef.current.has(cacheKey)) {
+      console.log("Using cached data for", cacheKey);
+      setHeatmapData(cacheRef.current.get(cacheKey));
+      setShowHeatmap(true);
+      return;
+    }
     try {
       console.log("Fetching heatmap data...");
   
@@ -100,7 +107,7 @@ export default function MapComponent({ radius }: MapComponentProps) {
         }).filter(Boolean);
 
         console.log("Transformed heatmap data with weights:", heatmapPoints);
-
+        cacheRef.current.set(cacheKey, heatmapPoints); 
         setHeatmapData(heatmapPoints);
         setShowHeatmap(true);
         return;
@@ -221,26 +228,22 @@ export default function MapComponent({ radius }: MapComponentProps) {
           fetchHeatmapData(newMarker.lat, newMarker.lng);
         }}
       >
-        {/* Heatmap Layer */}
-        {showHeatmap && heatmapData.length > 0 && (
-          <HeatmapLayer
-            data={heatmapData}
-            options={{
-              radius: 50,  
-              opacity: 0.3,
-              dissipating: true,
-              gradient: [
-                'rgba(0, 255, 255, 0)',
-                'rgba(0, 255, 255, 1)',
-                'rgba(0, 255, 0, 1)',
-                'rgba(255, 255, 0, 1)',
-                'rgba(255, 0, 0, 1)', // Make red the brightest
-                'rgba(255, 0, 0, 1)', // Keep red the brightest for high-weight places
-              ]
-            }}
-            // just add "gradient: "
-          />
-        )}
+        <HeatmapLayer
+        data={showHeatmap ? heatmapData : []} // Empty data hides the heatmap
+        options={{
+          radius: 50,
+          opacity: 0.3,
+          dissipating: true,
+          gradient: [
+            'rgba(0, 255, 255, 0)',
+            'rgba(0, 255, 255, 1)',
+            'rgba(0, 255, 0, 1)',
+            'rgba(255, 255, 0, 1)',
+            'rgba(255, 0, 0, 1)',
+            'rgba(255, 0, 0, 1)',
+          ],
+        }}
+      />
 
         {/* User-placed Marker */}
         {markerPosition && <Marker position={markerPosition} />}
@@ -248,26 +251,29 @@ export default function MapComponent({ radius }: MapComponentProps) {
 
       {/* Debug Button to Show/Hide Heatmap */}
       <button
-        onClick={() => setShowHeatmap(!showHeatmap)}
+        onClick={() => {
+          setShowHeatmap((prev) => !prev); // Toggle the heatmap visibility
+        }}
         style={{
           position: "absolute",
           top: 10,
           left: 10,
           zIndex: 100,
           padding: "8px 12px",
-          background: "white",
+          background: "black",
           border: "1px solid black",
+          color: "white",
           cursor: "pointer",
         }}
       >
         {showHeatmap ? "Hide Heatmap" : "Show Heatmap"}
       </button>
 
-      {/* Display the heatmap data */}
+      {/* Display the heatmap data
       <div>
         <h3>Heatmap Data</h3>
         <pre>{JSON.stringify(heatmapData, null, 2)}</pre>
-      </div>
+      </div> */}
     </LoadScript>
   );
 }
