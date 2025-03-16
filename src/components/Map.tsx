@@ -187,7 +187,7 @@ export default function MapComponent({ radius }: MapComponentProps) {
     if (mapRef.current && markerPosition) {
       const circle = new google.maps.Circle({
         center: markerPosition,
-        radius: radius, 
+        radius: Math.sqrt(radius / Math.PI), 
         strokeColor: "#FF0000",
         strokeOpacity: 0.8,
         strokeWeight: 2,
