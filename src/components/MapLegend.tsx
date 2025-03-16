@@ -1,40 +1,63 @@
-// Legend component
 const MapLegend = () => {
-    return (
-      <div
+  return (
+    <div
+      style={{
+        position: "absolute",
+        bottom: "20px",
+        left: "20px",
+        background: "rgba(20, 20, 20, 0.8)", // Dark glassmorphic effect
+        backdropFilter: "blur(10px)",
+        padding: "14px",
+        borderRadius: "10px",
+        boxShadow: "0 4px 12px rgba(0, 255, 255, 0.2)", // Soft neon cyan glow
+        fontSize: "14px",
+        lineHeight: "20px",
+        color: "white",
+        width: "220px",
+        fontFamily: "monospace", // Tech-style font
+      }}
+    >
+      <h4
         style={{
-          position: "absolute",
-          top: "320px", // Position at bottom-right
-          left: "5px",
-          backgroundColor: "rgba(255,255,255,0.5)",
-          padding: "10px",
-          borderRadius: "8px",
-          boxShadow: "0 2px 6px rgba(0,0,0,0.3)",
-          fontSize: "14px",
-          lineHeight: "24px",
-          color:"black",
+          margin: "0 0 10px 0",
+          fontWeight: "bold",
+          textAlign: "center",
+          letterSpacing: "1px",
+          textTransform: "uppercase",
+          color: "#0ff", // Neon cyan title
         }}
       >
-        <h4 style={{ margin: "0 0 8px 0", fontWeight: "bold", textAlign:"center" }}>Legend</h4>
-        <div style={{ display: "flex", alignItems: "center" }}>
-          <div style={{ width: "20px", height: "20px", backgroundColor: "green", marginRight: "8px", borderRadius: "50%" }}></div>
-          Excellent Rated Restaurants
-        </div>
-        <div style={{ display: "flex", alignItems: "center" }}>
-          <div style={{ width: "20px", height: "20px", backgroundColor: "blue", marginRight: "8px", borderRadius: "50%" }}></div>
-          Good Rated Restaurants
-        </div>
-        <div style={{ display: "flex", alignItems: "center" }}>
-          <div style={{ width: "20px", height: "20px", backgroundColor: "orange", marginRight: "8px", borderRadius: "50%" }}></div>
-          Poor Rated Restaurants
-        </div>
-        <div style={{ display: "flex", alignItems: "center" }}>
-          <div style={{ width: "20px", height: "20px", backgroundColor: "red", marginRight: "8px", borderRadius: "50%" }}></div>
-          Terrible Rated Restaurants
-        </div>
-      </div>
-    );
-  };
+        Heatmap Legend
+      </h4>
 
-  export default MapLegend;
-  
+      {/* Gradient Bar */}
+      <div
+        style={{
+          height: "14px",
+          width: "100%",
+          background: "linear-gradient(to right, #0ff, #0ff, #0f0, #ff0, #f00, #f00)",
+          borderRadius: "6px",
+          boxShadow: "0 0 12px rgba(0, 255, 255, 0.3)", // Glow effect
+        }}
+      ></div>
+
+      {/* Labels */}
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          fontSize: "12px",
+          marginTop: "6px",
+          color: "#bbb", // Soft gray text
+        }}
+      >
+        <span style={{ color: "#0ff" }}>Low</span>
+        <span style={{ color: "#0f0" }}>Medium</span>
+        <span style={{ color: "#ff0" }}>High</span>
+        <span style={{ color: "#f00", fontWeight: "bold" }}>Peak</span>
+      </div>
+    </div>
+  );
+};
+
+export default MapLegend;
