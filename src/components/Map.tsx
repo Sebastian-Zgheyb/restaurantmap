@@ -133,6 +133,7 @@ export default function MapComponent({ radius, setRadius }: MapComponentProps) {
   return (
     <div className="container">
       <div className="NavBar">
+        <div className="innerContainer">
         <div className="NavBar-left">
         <button
           onClick={() => {
@@ -181,6 +182,8 @@ export default function MapComponent({ radius, setRadius }: MapComponentProps) {
         </div>
         <img src={logo} alt="Logo" className="navbar-logo" />
       </div>
+      </div>
+
       <LoadScript googleMapsApiKey="AIzaSyDbokWMJyoCcOY7NUJI_mttcPL1pABK51o" libraries={["visualization"]}>
         <GoogleMap
           mapContainerStyle={mapContainerStyle}
