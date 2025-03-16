@@ -152,10 +152,11 @@ export default function MapComponent() {
             left: 10,
             margin: "12px 16px",
             background: "black",
-            border: "1px solid black",
-            borderRadius: "0px",
+            border: "1px solid rgb(255, 255, 255)",
+            borderRadius: "4px",
             color: "white",
             cursor: "pointer",
+            backgroundColor: "black"
           }}
         >
           {showHeatmap ? "Hide Heatmap" : "Show Heatmap"}

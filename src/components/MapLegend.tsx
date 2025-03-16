@@ -20,11 +20,11 @@ const MapLegend = () => {
       <h4
         style={{
           margin: "0 0 10px 0",
-          fontWeight: "bold",
+          // fontWeight: "bold",
           textAlign: "center",
           letterSpacing: "1px",
-          textTransform: "uppercase",
-          color: "#0ff", // Neon cyan title
+          // textTransform: "uppercase",
+          color: "white", // Neon cyan title
         }}
       >
         Heatmap Legend
